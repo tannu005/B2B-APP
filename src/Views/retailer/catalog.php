@@ -53,13 +53,30 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <div class="category-circle-title">All Sarees</div>
         </a>
         <?php 
-        $occasionTypes = ['Wedding Wear', 'Bridal Sarees', 'Party Wear', 'Festival Wear', 'Office Wear', 'Daily Wear', 'Reception', 'Haldi'];
-        $placeholders = ['/kanjeevaram.png', '/banarasi.png', '/patola.png', '/tissue.png', '/kanjeevaram_1782883481838.png', '/banarasi_1782883519429.png', '/patola_1782883499288.png', '/tissue_1782883588057.png'];
+        $occasionTypes = [];
+        $placeholders = ['/assets/img/pavitra_logo.png']; // Fallback
+        
+        // Use the dynamic categories list if available, otherwise fallback
+        if (isset($categoriesList) && !empty($categoriesList)) {
+            $occasionTypes = array_map(function($c) { return $c['name']; }, $categoriesList);
+            // Just use a random image from each category or the placeholder
+            // For now, let's use the first image of each category if possible, or a default
+        } else {
+            $occasionTypes = ['Wedding Wear', 'Bridal Sarees', 'Party Wear', 'Festival Wear', 'Office Wear', 'Daily Wear'];
+        }
+
         foreach (array_slice($occasionTypes, 0, 8) as $idx => $catName): 
-            $img = $placeholders[$idx % count($placeholders)];
+            // Try to find an image from this category
+            $catImg = '/assets/img/pavitra_logo.png';
+            foreach ($products as $p) {
+                if ($p['category_name'] === $catName && !empty($p['image_url'])) {
+                    $catImg = $p['image_url'];
+                    break;
+                }
+            }
         ?>
         <a href="/?category=<?= urlencode($catName) ?>" class="category-circle-item <?= $selectedCategory === $catName ? 'active' : '' ?>">
-            <img src="<?= $img ?>" class="category-circle-img" alt="<?= htmlspecialchars($catName) ?>" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
+            <img src="<?= htmlspecialchars($catImg) ?>" class="category-circle-img" alt="<?= htmlspecialchars($catName) ?>" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
             <div class="category-circle-title mt-1" style="font-size: 0.75rem; text-align: center; color: #333; font-weight: 600;"><?= htmlspecialchars(explode(' ', $catName)[0]) ?></div>
         </a>
         <?php endforeach; ?>
@@ -176,7 +193,10 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             </div>
         </div>
         <div class="pavitra-carousel-container">
-            <?php foreach (array_slice($products, 0, 8) as $item): ?>
+            <?php 
+            $newArrivals = $products;
+            usort($newArrivals, function($a, $b) { return $b['id'] <=> $a['id']; });
+            foreach (array_slice($newArrivals, 0, 8) as $item): ?>
                 <div class="pavitra-carousel-item"><?= renderProductCard($item) ?></div>
             <?php endforeach; ?>
         </div>

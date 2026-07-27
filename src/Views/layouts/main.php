@@ -101,15 +101,18 @@ $canonicalUrl = $scheme . ($_SERVER['HTTP_HOST'] ?? 'localhost') . $canonicalPat
                     <a href="/?sort=price_high" class="pavitra-menu-link">MOST WANTED</a>
                     <a href="/?sort=newest" class="pavitra-menu-link">NEW ARRIVALS</a>
                     <a href="/?all_sarees=true" class="pavitra-menu-link">ALL SAREES</a>
-                    <a href="/?category=Banarasi+Sarees" class="pavitra-menu-link">BANARASI</a>
-                    <a href="/?category=Silk+Saree" class="pavitra-menu-link">SILK</a>
-                    <a href="/?category=Bandhej+Sarees" class="pavitra-menu-link">BANDHEJ</a>
+                    <?php
+                        $stmtCats = \Core\Application::$app->db->query("SELECT id, name FROM categories LIMIT 8");
+                        $navCats = $stmtCats->fetchAll(\PDO::FETCH_ASSOC);
+                        foreach (array_slice($navCats, 0, 3) as $nc):
+                    ?>
+                    <a href="/?category=<?= urlencode($nc['name']) ?>" class="pavitra-menu-link text-uppercase"><?= htmlspecialchars(explode(' ', $nc['name'])[0]) ?></a>
+                    <?php endforeach; ?>
                 </div>
                 <div class="menu-row-2 d-flex gap-4">
-                    <a href="/?category=Gotta+Patti+Sarees" class="pavitra-menu-link">GOTTA PATTI</a>
-                    <a href="/?category=Lehenga" class="pavitra-menu-link">LEHENGA</a>
-                    <a href="/?category=Cotton+Saree" class="pavitra-menu-link">COTTON</a>
-                    <a href="/?category=Chiffon+Saree" class="pavitra-menu-link">CHIFFON</a>
+                    <?php foreach (array_slice($navCats, 3, 5) as $nc): ?>
+                    <a href="/?category=<?= urlencode($nc['name']) ?>" class="pavitra-menu-link text-uppercase"><?= htmlspecialchars(str_replace('Saree', '', $nc['name'])) ?></a>
+                    <?php endforeach; ?>
                     <div class="dropdown d-inline-block collections-dropdown">
                         <a href="#" class="dropdown-toggle text-decoration-none text-dark pavitra-menu-link" data-bs-toggle="dropdown" aria-expanded="false">COLLECTIONS</a>
                         <ul class="dropdown-menu mt-2 rounded-0 border text-center" style="min-width: 220px; font-family: 'Plus Jakarta Sans', sans-serif; border-color: #eee !important; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
