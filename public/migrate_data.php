@@ -279,7 +279,17 @@ INSERT INTO `products` (`category_id`, `name`, `description`, `slug`, `price`, `
 (6, 'Pyor Gotta Patti Saree', 'A stunning red saree with a heavy golden Gota Patti border. The saree has a broad scalloped border with leaf motifs and scattered star patterns on the body.', 'pyor-gotta-patti-saree-red-4', 3200, 'pyor Gotta Patti (58).jpg', CURDATE(), 0)
 SQL;
 
-// Replace INSERT INTO `products` with our logic
+$stmtUser = $db->query("SELECT id FROM users LIMIT 1");
+$user = $stmtUser->fetch();
+if ($user) {
+    $seller_id = $user['id'];
+} else {
+    $db->query("SET FOREIGN_KEY_CHECKS = 0;");
+    $db->query("INSERT IGNORE INTO users (id, name, email, password, role) VALUES (1, 'Admin', 'admin@admin.com', '12345', 'ADMIN')");
+    $db->query("SET FOREIGN_KEY_CHECKS = 1;");
+    $seller_id = 1;
+}
+
 $lines = explode("\n", $sqlProducts);
 $stmtProd = $db->prepare("INSERT INTO products (category_id, seller_id, title, description, status) VALUES (?, ?, ?, ?, ?)");
 $stmtVar = $db->prepare("INSERT INTO product_variants (product_id, sku, price, wholesale_price, image_url, bulk_threshold, stock) VALUES (?, ?, ?, ?, ?, ?, ?)");
@@ -289,7 +299,6 @@ foreach ($lines as $line) {
     if (strpos($line, '(') === 0) {
         $line = rtrim($line, ',');
         $line = trim($line, "(), \r\n");
-        // Parse the line manually. Since there are single quotes, we can use str_getcsv
         $fields = str_getcsv($line, ',', "'");
         if (count($fields) >= 6) {
             $cat_id = $fields[0];
@@ -298,7 +307,7 @@ foreach ($lines as $line) {
             $price = floatval($fields[4]);
             $photo = trim($fields[5]);
             
-            $stmtProd->execute([$cat_id, 1, $name, $desc, 'ACTIVE']);
+            $stmtProd->execute([$cat_id, $seller_id, $name, $desc, 'ACTIVE']);
             $prod_id = $db->lastInsertId();
             
             $sku = strtoupper(substr(md5($name . $photo), 0, 8));
