@@ -54,6 +54,16 @@ try {
         }
         exit;
     }
+    if (isset($_GET['clear_logs'])) {
+        try {
+            $db->query("TRUNCATE TABLE error_logs;");
+            $db->query("TRUNCATE TABLE activity_logs;");
+            echo "LOGS CLEARED";
+        } catch (\Exception $e) {
+            echo "ERROR CLEARING LOGS";
+        }
+        exit;
+    }
     if (!file_exists(dirname(__DIR__) . '/sync_completed.txt')) {
         $syncController = new \App\Controllers\SuperAdminController();
         $syncController->syncDataset(new Core\Request(), clone $app->response);

@@ -56,17 +56,13 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         $occasionTypes = [];
         $placeholders = ['/assets/img/pavitra_logo.png']; // Fallback
         
-        // Use the dynamic categories list if available, otherwise fallback
         if (isset($categoriesList) && !empty($categoriesList)) {
             $occasionTypes = array_map(function($c) { return $c['name']; }, $categoriesList);
-            // Just use a random image from each category or the placeholder
-            // For now, let's use the first image of each category if possible, or a default
         } else {
             $occasionTypes = ['Wedding Wear', 'Bridal Sarees', 'Party Wear', 'Festival Wear', 'Office Wear', 'Daily Wear'];
         }
 
         foreach (array_slice($occasionTypes, 0, 8) as $idx => $catName): 
-            // Try to find an image from this category
             $catImg = '/assets/img/pavitra_logo.png';
             foreach ($products as $p) {
                 if ($p['category_name'] === $catName && !empty($p['image_url'])) {
