@@ -45,38 +45,52 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
 <div class="container-xl py-2 py-md-4">
     <div class="category-circles-container d-flex" style="overflow-x: auto; white-space: nowrap; padding: 10px 0; -webkit-overflow-scrolling: touch;">
         <?php 
-        $occasionTypes = [];
-          if (isset($categoriesList) && !empty($categoriesList)) {
-            $occasionTypes = array_map(function($c) { return $c['name']; }, $categoriesList);
-        } else {
-            $occasionTypes = ['Bandhej Sarees', 'Banarasi Sarees', 'Gotta Patti Chunri Sarees', 'Pittan Work Sarees', 'Printed Sarees', 'Pyor Gotta Patti Sarees'];
-        }
-
-        $imageMap = [
-            'Bandhej Sarees' => '/kanjeevaram.png',
-            'Banarasi Sarees' => '/banarasi.png',
-            'Gotta Patti Chunri Sarees' => '/patola.png',
-            'Pittan Work Sarees' => '/tissue.png',
-            'Printed Sarees' => '/kanjeevaram_1782883481838.png',
-            'Pyor Gotta Patti Sarees' => '/banarasi_1782883519429.png'
+        $defaultCategories = [
+            ['name' => 'Bandhej', 'img' => '/kanjeevaram.png'],
+            ['name' => 'Banarasi', 'img' => '/banarasi.png'],
+            ['name' => 'Gotta Patti', 'img' => '/patola.png'],
+            ['name' => 'Pittan Work', 'img' => '/tissue.png'],
+            ['name' => 'Printed', 'img' => '/kanjeevaram_1782883481838.png'],
+            ['name' => 'Pyor Gotta', 'img' => '/banarasi_1782883519429.png']
         ];
+
+        $categoriesToRender = [];
+        if (isset($categoriesList) && !empty($categoriesList)) {
+            foreach (array_slice($categoriesList, 0, 6) as $idx => $cat) {
+                $rawName = $cat['name'];
+                $cleanName = str_replace(' Sarees', '', $rawName);
+                if (preg_match('/^C[0-9a-f]{7}/i', $cleanName)) {
+                    $cleanName = $defaultCategories[$idx]['name'] ?? 'Saree';
+                }
+                $img = $defaultCategories[$idx]['img'] ?? '/assets/img/pavitra_logo.png';
+                $categoriesToRender[] = [
+                    'query' => $rawName,
+                    'display' => $cleanName,
+                    'img' => $img
+                ];
+            }
+        } else {
+            foreach ($defaultCategories as $cat) {
+                $categoriesToRender[] = [
+                    'query' => $cat['name'] . ' Sarees',
+                    'display' => $cat['name'],
+                    'img' => $cat['img']
+                ];
+            }
+        }
         ?>
         
         <a href="/" class="category-circle-item <?= empty($selectedCategory) ? 'active' : '' ?>" style="text-decoration:none;">
             <div style="width: 60px; height: 60px; border-radius: 50%; background-color: #4e2c22; color: #fff; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 14px; font-weight: bold; border: 1px solid #ECEFF1;">
                 All
             </div>
-            <span style="display: block; margin-top: 8px; font-size: 12px; color: #333; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;">All Sarees</span>
+            <span style="display: block; margin-top: 8px; font-size: 12px; color: #4e2c22; font-weight: bold; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;">All Sarees</span>
         </a>
 
-        <?php
-        foreach (array_slice($occasionTypes, 0, 6) as $idx => $catName): 
-            $catImg = $imageMap[$catName] ?? '/assets/img/pavitra_logo.png';
-            $displayName = str_replace(' Sarees', '', $catName);
-        ?>
-        <a href="/?category=<?= urlencode($catName) ?>" class="category-circle-item <?= $selectedCategory === $catName ? 'active' : '' ?>" style="text-decoration:none;">
-            <img src="<?= htmlspecialchars($catImg) ?>" class="category-circle-img" alt="<?= htmlspecialchars($catName) ?>" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
-            <span style="display: block; margin-top: 8px; font-size: 12px; color: #333; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;"><?= htmlspecialchars($displayName) ?></span>
+        <?php foreach ($categoriesToRender as $item): ?>
+        <a href="/?category=<?= urlencode($item['query']) ?>" class="category-circle-item <?= $selectedCategory === $item['query'] ? 'active' : '' ?>" style="text-decoration:none;">
+            <img src="<?= htmlspecialchars($item['img']) ?>" class="category-circle-img" alt="<?= htmlspecialchars($item['display']) ?>" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
+            <span style="display: block; margin-top: 8px; font-size: 12px; color: #555; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;"><?= htmlspecialchars($item['display']) ?></span>
         </a>
         <?php endforeach; ?>
     </div>
