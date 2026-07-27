@@ -64,16 +64,13 @@ class RetailerController extends Controller {
         } else {
             $sql .= " ORDER BY p.id DESC";
         }
-        $cacheKey = "catalog_products_v2_" . md5(serialize([$category, $search, $sort, $minPrice, $maxPrice]));
-        $products = Application::$app->cache->remember($cacheKey, 60, function() use ($db, $sql, $params) {
-            $stmt = $db->prepare($sql);
-            $stmt->execute($params);
-            return $stmt->fetchAll() ?: [];
-        });
-        $categoriesList = Application::$app->cache->remember('categories_list_v2', 3600, function() use ($db) {
-            $stmtCat = $db->query("SELECT id, name FROM categories");
-            return $stmtCat->fetchAll() ?: [];
-        });
+        $stmtProducts = $db->prepare($sql);
+        $stmtProducts->execute($params);
+        $products = $stmtProducts->fetchAll() ?: [];
+        
+        $stmtCat = $db->query("SELECT id, name FROM categories");
+        $categoriesList = $stmtCat->fetchAll() ?: [];
+        
         return $this->render('retailer/catalog', [
             'title' => 'Pavitra Designer Wholesale - Pavitra Style Shop',
             'products' => $products,
