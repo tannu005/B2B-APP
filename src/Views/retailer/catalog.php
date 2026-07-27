@@ -59,17 +59,20 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         if (isset($categoriesList) && !empty($categoriesList)) {
             $occasionTypes = array_map(function($c) { return $c['name']; }, $categoriesList);
         } else {
-            $occasionTypes = ['Wedding Wear', 'Bridal Sarees', 'Party Wear', 'Festival Wear', 'Office Wear', 'Daily Wear'];
+            $occasionTypes = ['Bandhej Sarees', 'Banarasi Sarees', 'Gotta Patti Chunri Sarees', 'Pittan Work Sarees', 'Printed Sarees', 'Pyor Gotta Patti Sarees'];
         }
 
-        foreach (array_slice($occasionTypes, 0, 8) as $idx => $catName): 
-            $catImg = '/assets/img/pavitra_logo.png';
-            foreach ($products as $p) {
-                if ($p['category_name'] === $catName && !empty($p['image_url'])) {
-                    $catImg = $p['image_url'];
-                    break;
-                }
-            }
+        $imageMap = [
+            'Bandhej Sarees' => '/kanjeevaram.png',
+            'Banarasi Sarees' => '/banarasi.png',
+            'Gotta Patti Chunri Sarees' => '/patola.png',
+            'Pittan Work Sarees' => '/tissue.png',
+            'Printed Sarees' => '/kanjeevaram_1782883481838.png',
+            'Pyor Gotta Patti Sarees' => '/banarasi_1782883519429.png'
+        ];
+
+        foreach (array_slice($occasionTypes, 0, 6) as $idx => $catName): 
+            $catImg = $imageMap[$catName] ?? '/assets/img/pavitra_logo.png';
         ?>
         <a href="/?category=<?= urlencode($catName) ?>" class="category-circle-item <?= $selectedCategory === $catName ? 'active' : '' ?>">
             <img src="<?= htmlspecialchars($catImg) ?>" class="category-circle-img" alt="<?= htmlspecialchars($catName) ?>" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
