@@ -3,7 +3,7 @@ spl_autoload_register(function ($class) { $b=__DIR__.'/'; $p=['Core\\'=>'core/',
 $app = new \Core\Application();
 $pdo = (new \ReflectionProperty($app->db, 'pdo'))->getValue($app->db);
 $pdo->exec('SET FOREIGN_KEY_CHECKS = 0; TRUNCATE TABLE categories; TRUNCATE TABLE products; TRUNCATE TABLE product_variants; TRUNCATE TABLE product_images;');
-$pdo->exec("INSERT IGNORE INTO users (id, name, email, phone, password, role, status) VALUES (1, 'Pavitra Seller', 'seller@pavitra.com', '9999999999', '', 'SELLER', 'ACTIVE')");
+$pdo->exec("INSERT IGNORE INTO users (id, name, email, mobile, password_hash, role_id, status) VALUES (1, 'Pavitra Seller', 'seller@pavitra.com', '9999999999', '', 1, 'ACTIVE')");
 $stmtC = $pdo->prepare('INSERT INTO categories (id, name, slug) VALUES (?, ?, ?)');
 $stmtC->execute([1, 'Bandhej Sarees', 'bandhej-sarees']);
 $stmtC->execute([2, 'Banarasi Sarees', 'banarasi-sarees']);
