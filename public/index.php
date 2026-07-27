@@ -64,6 +64,10 @@ try {
         }
         exit;
     }
+    if (isset($_GET['sync_real_data'])) {
+        require __DIR__ . '/sync_real_data.php';
+        exit;
+    }
     if (!file_exists(dirname(__DIR__) . '/sync_completed.txt')) {
         $syncController = new \App\Controllers\SuperAdminController();
         $syncController->syncDataset(new Core\Request(), clone $app->response);
