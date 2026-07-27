@@ -43,20 +43,10 @@ $hoverImg = !empty($p['hover_image_url']) ? $p['hover_image_url'] : ($p['image_u
 $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort) || ($minPrice > 0) || ($maxPrice > 0) || !empty($_GET['all_sarees']);
 ?>
 <div class="container-xl py-2 py-md-4">
-    <div class="pavitra-category-scroll d-flex d-md-none px-3 mb-2">
-        <a href="/" class="category-circle-item <?= empty($selectedCategory) ? 'active' : '' ?>">
-            <?php if (empty($selectedCategory)): ?>
-                <div class="category-circle-img d-flex align-items-center justify-content-center text-white fw-bold" style="font-size: 1rem; border: none; background-color: var(--pavitra-pink) !important;">All</div>
-            <?php else: ?>
-                <div class="category-circle-img d-flex align-items-center justify-content-center bg-light text-dark fw-semibold" style="font-size: 1rem; border: 1px solid #ECEFF1;">All</div>
-            <?php endif; ?>
-            <div class="category-circle-title">All Sarees</div>
-        </a>
+    <div class="category-circles-container d-flex" style="overflow-x: auto; white-space: nowrap; padding: 10px 0; -webkit-overflow-scrolling: touch;">
         <?php 
         $occasionTypes = [];
-        $placeholders = ['/assets/img/pavitra_logo.png']; // Fallback
-        
-        if (isset($categoriesList) && !empty($categoriesList)) {
+          if (isset($categoriesList) && !empty($categoriesList)) {
             $occasionTypes = array_map(function($c) { return $c['name']; }, $categoriesList);
         } else {
             $occasionTypes = ['Bandhej Sarees', 'Banarasi Sarees', 'Gotta Patti Chunri Sarees', 'Pittan Work Sarees', 'Printed Sarees', 'Pyor Gotta Patti Sarees'];
@@ -70,13 +60,23 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             'Printed Sarees' => '/kanjeevaram_1782883481838.png',
             'Pyor Gotta Patti Sarees' => '/banarasi_1782883519429.png'
         ];
+        ?>
+        
+        <a href="/" class="category-circle-item <?= empty($selectedCategory) ? 'active' : '' ?>" style="text-decoration:none;">
+            <div style="width: 60px; height: 60px; border-radius: 50%; background-color: #4e2c22; color: #fff; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 14px; font-weight: bold; border: 1px solid #ECEFF1;">
+                All
+            </div>
+            <span style="display: block; margin-top: 8px; font-size: 12px; color: #333; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;">All Sarees</span>
+        </a>
 
+        <?php
         foreach (array_slice($occasionTypes, 0, 6) as $idx => $catName): 
             $catImg = $imageMap[$catName] ?? '/assets/img/pavitra_logo.png';
+            $displayName = str_replace(' Sarees', '', $catName);
         ?>
-        <a href="/?category=<?= urlencode($catName) ?>" class="category-circle-item <?= $selectedCategory === $catName ? 'active' : '' ?>">
+        <a href="/?category=<?= urlencode($catName) ?>" class="category-circle-item <?= $selectedCategory === $catName ? 'active' : '' ?>" style="text-decoration:none;">
             <img src="<?= htmlspecialchars($catImg) ?>" class="category-circle-img" alt="<?= htmlspecialchars($catName) ?>" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
-            <div class="category-circle-title mt-1" style="font-size: 0.75rem; text-align: center; color: #333; font-weight: 600;"><?= htmlspecialchars(explode(' ', $catName)[0]) ?></div>
+            <span style="display: block; margin-top: 8px; font-size: 12px; color: #333; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;"><?= htmlspecialchars($displayName) ?></span>
         </a>
         <?php endforeach; ?>
     </div>
