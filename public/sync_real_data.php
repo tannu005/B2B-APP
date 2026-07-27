@@ -2,7 +2,8 @@
 spl_autoload_register(function ($class) { $b=__DIR__.'/'; $p=['Core\\'=>'core/','App\\'=>'src/']; foreach($p as $pr=>$d){ $l=strlen($pr); if(strncmp($pr,$class,$l)!==0)continue; $r=substr($class,$l); $f=$b.$d.str_replace('\\','/',$r).'.php'; if(file_exists($f)){require $f;return;} } });
 $app = new \Core\Application();
 $pdo = (new \ReflectionProperty($app->db, 'pdo'))->getValue($app->db);
-$pdo->exec('SET FOREIGN_KEY_CHECKS = 0; TRUNCATE TABLE categories; TRUNCATE TABLE products; TRUNCATE TABLE product_variants; TRUNCATE TABLE product_images; SET FOREIGN_KEY_CHECKS = 1;');
+$pdo->exec('SET FOREIGN_KEY_CHECKS = 0; TRUNCATE TABLE categories; TRUNCATE TABLE products; TRUNCATE TABLE product_variants; TRUNCATE TABLE product_images;');
+$pdo->exec("INSERT IGNORE INTO users (id, name, email, phone, password, role, status) VALUES (1, 'Pavitra Seller', 'seller@pavitra.com', '9999999999', '', 'SELLER', 'ACTIVE')");
 $stmtC = $pdo->prepare('INSERT INTO categories (id, name, slug) VALUES (?, ?, ?)');
 $stmtC->execute([1, 'Bandhej Sarees', 'bandhej-sarees']);
 $stmtC->execute([2, 'Banarasi Sarees', 'banarasi-sarees']);
@@ -688,4 +689,5 @@ $stmtI->execute([222, '/uploads/products/Pyor Gotta Patti (55).jpg']);
 $stmtI->execute([223, '/uploads/products/Pyor Gotta Patti  (56).jpg']);
 $stmtI->execute([224, '/uploads/products/Pyor Gotta Patti  (57).jpg']);
 $stmtI->execute([225, '/uploads/products/pyor Gotta Patti (58).jpg']);
+$pdo->exec('SET FOREIGN_KEY_CHECKS = 1;');
 echo 'SUCCESS';
