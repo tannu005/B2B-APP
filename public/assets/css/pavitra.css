@@ -1248,9 +1248,9 @@ h6 {
         display: inline-block !important;
     }
     .pavitra-video-banner {
-        height: 240px;
-        min-height: 240px;
-        max-height: 240px;
+        height: auto !important;
+        min-height: auto !important;
+        max-height: none !important;
     }
     .pavitra-video-copy {
         font-size: 0.78rem;

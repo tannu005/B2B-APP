@@ -289,7 +289,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         </div>
     </div>
     <div class="my-5">
-        <section class="pavitra-video-banner position-relative overflow-hidden w-100 rounded-3" style="background-color: #311c17; color: #fff;">
+        <section class="pavitra-video-banner position-relative overflow-hidden w-100 rounded-3" style="background-color: #311c17; color: #fff; height: auto !important; min-height: auto !important; max-height: none !important;">
             <div class="row g-0 align-items-center">
                 <div class="col-12 col-md-5 p-3 p-md-4 text-center">
                     <a href="/?category=Gotta+Patti+Sarees" class="d-block overflow-hidden rounded-3 text-decoration-none">
