@@ -93,8 +93,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <span style="display: block; margin-top: 8px; font-size: 12px; color: #555; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;"><?= htmlspecialchars($item['display']) ?></span>
         </a>
         <?php endforeach; ?>
-    </div>
-    <?php if (!$isFiltered): ?>
+        <?php if (!$isFiltered): ?>
     <div id="heroCarousel" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
@@ -104,50 +103,30 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         </div>
         <div class="carousel-inner rounded-3">
             <div class="carousel-item active">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.45)), url('/uploads/products/Banner1.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.7);">
-                        <span style="border-left: 3px solid #FFF; padding-left: 12px;">Wedding Season 2026</span>
-                    </div>
-                    <div class="position-absolute start-50 translate-middle-x text-center text-white" style="bottom: 50px; width: 90%;">
-                        <h1 class="mb-2 pavitra-hero-title" style="text-shadow: 0 4px 20px rgba(0,0,0,0.8); color: #FFF !important;">Shaadi Ka Ghar</h1>
-                        <p class="mb-3 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8);">Pavitra Banarasi Bridal Collection</p>
-                        <a href="/?category=Banarasi+Sarees" class="btn btn-light rounded-0 px-5 py-2 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922;">Shop Now</a>
+                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner1.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
+                        <a href="/?category=Banarasi+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.45)), url('/uploads/products/Banner2.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.7);">
-                        <span style="border-left: 3px solid #FFF; padding-left: 12px;">Handloomed Zari Heritage</span>
-                    </div>
-                    <div class="position-absolute start-50 translate-middle-x text-center text-white" style="bottom: 50px; width: 90%;">
-                        <h1 class="mb-2 pavitra-hero-title" style="text-shadow: 0 4px 20px rgba(0,0,0,0.8); color: #FFF !important;">Royal Silk</h1>
-                        <p class="mb-3 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8);">Wholesale Silk Weaves</p>
-                        <a href="/?category=Silk+Sarees" class="btn btn-light rounded-0 px-5 py-2 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922;">Shop Now</a>
+                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner2.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
+                        <a href="/?category=Silk+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.45)), url('/uploads/products/Banner3.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.7);">
-                        <span style="border-left: 3px solid #FFF; padding-left: 12px;">Double Ikat Masterpiece</span>
-                    </div>
-                    <div class="position-absolute start-50 translate-middle-x text-center text-white" style="bottom: 50px; width: 90%;">
-                        <h1 class="mb-2 pavitra-hero-title" style="text-shadow: 0 4px 20px rgba(0,0,0,0.8); color: #FFF !important;">Bandhej & Leheriya</h1>
-                        <p class="mb-3 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8);">Traditional Handloom Craft</p>
-                        <a href="/?category=Bandhej+Sarees" class="btn btn-light rounded-0 px-5 py-2 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922;">Shop Now</a>
+                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner3.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
+                        <a href="/?category=Bandhej+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.45)), url('/uploads/products/Banner10.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.7);">
-                        <span style="border-left: 3px solid #FFF; padding-left: 12px;">Sheer Elegance</span>
-                    </div>
-                    <div class="position-absolute start-50 translate-middle-x text-center text-white" style="bottom: 50px; width: 90%;">
-                        <h1 class="mb-2 pavitra-hero-title" style="text-shadow: 0 4px 20px rgba(0,0,0,0.8); color: #FFF !important;">Organza & Tissue</h1>
-                        <p class="mb-3 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8);">Lightweight Premium Drapes</p>
-                        <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922;">Shop Now</a>
+                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner10.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
+                        <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -182,12 +161,9 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <?php endforeach; ?>
         </div>
     </div>
-    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 45vh; min-height: 350px; max-height: 480px; background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('/uploads/products/Banner11.png'); background-size: cover; background-position: center;">
-        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center text-white p-4" style="position: relative; z-index: 2;">
-            <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8); font-weight: 700; letter-spacing: 0.12em;">Wholesale Wedding Collection</p>
-            <h2 class="text-uppercase mb-3 pavitra-hero-title" style="text-shadow: 0 4px 15px rgba(0,0,0,0.8); color: #FFF !important; font-size: 2.2rem;">Tyoharcore</h2>
-            <p class="mb-4" style="font-size: 0.9rem; color: rgba(255,255,255,0.9); text-shadow: 0 2px 8px rgba(0,0,0,0.8); max-width: 520px; line-height: 1.6;">Festive silks handpicked for the bridal season. Bulk orders with exclusive wholesale margins.</p>
-            <a href="/?category=Bridal+Sarees" class="btn btn-outline-light rounded-0 px-5 py-2 text-uppercase fw-bold pavitra-hero-cta" style="border-width: 2px; letter-spacing: 0.1em;">Explore Collection</a>
+    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 48vh; min-height: 380px; max-height: 520px; background-image: url('/uploads/products/Banner11.png'); background-attachment: fixed; background-size: cover; background-position: center;">
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-end text-center text-white p-4" style="position: relative; z-index: 2; background: linear-gradient(transparent 50%, rgba(0,0,0,0.6));">
+            <a href="/?category=Bridal+Sarees" class="btn btn-outline-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="border-width: 2px; letter-spacing: 0.12em;">Explore Festive Collection →</a>
         </div>
     </div>
     <div class="carousel-section-wrapper position-relative my-5 py-3" style="font-family: 'Nunito', sans-serif;">
@@ -307,6 +283,9 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
                     <h2 class="text-uppercase mb-3 pavitra-hero-title" style="color: #FFF !important; font-size: 2.2rem;">Desi Romance</h2>
                     <p class="mb-4 text-white-50" style="font-size: 0.95rem; line-height: 1.7; max-width: 520px;">A rhythmic celebration of warp and weft. Handwoven drapes reimagined for the modern wholesale buyer with weaver-direct pricing.</p>
                     <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922; letter-spacing: 0.1em;">Explore Story</a>
+                </div>
+            </div>
+        </section>
     </div>
     <div class="carousel-section-wrapper position-relative my-5 py-3" style="font-family: 'Nunito', sans-serif;">
         <div class="d-flex justify-content-between align-items-end mb-4">
