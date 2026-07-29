@@ -331,6 +331,20 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <?php endforeach; ?>
         </div>
     </div>
+    <div class="my-5 py-3" id="home-full-catalog-section">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h2 class="text-uppercase fw-normal mb-0 pavitra-section-title">Explore Full Wholesale Catalog</h2>
+                <p class="text-muted text-uppercase mb-0 pavitra-section-subtitle">Browse All Handloom Saree Designs Directly</p>
+            </div>
+            <a href="/?all_sarees=true" class="text-decoration-none text-uppercase fw-bold pavitra-section-link" style="color: #482922; border-bottom: 1px solid #482922;">View All (<?= count($products) ?>) →</a>
+        </div>
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3 g-md-4">
+            <?php foreach (array_slice($products, 0, 16) as $p): ?>
+                <div class="col"><?= renderProductCard($p) ?></div>
+            <?php endforeach; ?>
+        </div>
+    </div>
     <div class="w-100 py-5 mt-5" style="background-color: #482922; font-family: 'Nunito', sans-serif;">
         <div class="container text-center py-4">
             <h3 class="text-uppercase fw-bold mb-2 pavitra-section-title" style="color: #FFF !important;">Join the Movement</h3>

@@ -1361,15 +1361,21 @@ h6 {
 }
 .pavitra-carousel-item {
     flex: 0 0 calc(25% - 15px);
+    flex-shrink: 0 !important;
+    min-width: 220px;
 }
 @media (max-width: 991px) {
     .pavitra-carousel-item {
         flex: 0 0 calc(33.333% - 14px);
+        flex-shrink: 0 !important;
+        min-width: 180px;
     }
 }
 @media (max-width: 576px) {
     .pavitra-carousel-item {
         flex: 0 0 calc(50% - 10px);
+        flex-shrink: 0 !important;
+        min-width: 145px;
         scroll-snap-align: start;
     }
     .pavitra-carousel-container {
