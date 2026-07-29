@@ -93,7 +93,8 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <span style="display: block; margin-top: 8px; font-size: 12px; color: #555; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 60px;"><?= htmlspecialchars($item['display']) ?></span>
         </a>
         <?php endforeach; ?>
-        <?php if (!$isFiltered): ?>
+    </div>
+    <?php if (!$isFiltered): ?>
     <div id="heroCarousel" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
