@@ -104,38 +104,34 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         </div>
         <div class="carousel-inner rounded-3">
             <div class="carousel-item active">
-                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
-                    <div style="background-image: url('/uploads/products/Banner1.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
-                    <img src="/uploads/products/Banner1.png" alt="Shaadi Ka Ghar Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
-                        <a href="/?category=Banarasi+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 55vh; min-height: 400px; max-height: 560px; background-color: #241410;">
+                    <img src="/uploads/products/Banner1.png" alt="Banarasi Bridal Collection" style="width: 100%; height: 100%; object-fit: cover; object-position: right center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 30px; width: 90%; z-index: 2;">
+                        <a href="/?category=Banarasi+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Banarasi Collection</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
-                    <div style="background-image: url('/uploads/products/Banner2.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
-                    <img src="/uploads/products/Banner2.png" alt="Royal Silk Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
-                        <a href="/?category=Silk+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 55vh; min-height: 400px; max-height: 560px; background-color: #241410;">
+                    <img src="/uploads/products/Banner2.png" alt="Royal Silk Collection" style="width: 100%; height: 100%; object-fit: cover; object-position: right center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 30px; width: 90%; z-index: 2;">
+                        <a href="/?category=Silk+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Royal Silk</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
-                    <div style="background-image: url('/uploads/products/Banner3.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
-                    <img src="/uploads/products/Banner3.png" alt="Bandhej Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
-                        <a href="/?category=Bandhej+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 55vh; min-height: 400px; max-height: 560px; background-color: #241410;">
+                    <img src="/uploads/products/Banner3.png" alt="Bandhej Collection" style="width: 100%; height: 100%; object-fit: cover; object-position: center center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 30px; width: 90%; z-index: 2;">
+                        <a href="/?category=Bandhej+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Bandhej & Leheriya</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
-                    <div style="background-image: url('/uploads/products/Banner10.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
-                    <img src="/uploads/products/Banner10.png" alt="Organza Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
-                        <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 55vh; min-height: 400px; max-height: 560px; background-color: #241410;">
+                    <img src="/uploads/products/Banner10.png" alt="Organza & Tissue Collection" style="width: 100%; height: 100%; object-fit: cover; object-position: right center;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 30px; width: 90%; z-index: 2;">
+                        <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Organza Sarees</a>
                     </div>
                 </div>
             </div>
@@ -289,13 +285,18 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         <section class="pavitra-video-banner position-relative overflow-hidden w-100 rounded-3" style="background-color: #311c17; color: #fff;">
             <div class="row g-0 align-items-center">
                 <div class="col-12 col-md-5 p-3 p-md-4 text-center">
-                    <img src="/uploads/products/gotta patti Bandhej (1).jpg" class="img-fluid rounded-3 shadow-lg" style="max-height: 440px; width: auto; object-fit: cover; border: 2px solid rgba(212, 175, 55, 0.4);" alt="Desi Romance Saree Model">
+                    <a href="/?category=Gotta+Patti+Sarees" class="d-block overflow-hidden rounded-3 text-decoration-none">
+                        <img src="/uploads/products/gotta patti Bandhej (1).jpg" class="img-fluid rounded-3 shadow-lg" style="max-height: 440px; width: 100%; object-fit: cover; border: 2px solid rgba(212, 175, 55, 0.4); transition: transform 0.5s ease;" alt="Desi Romance Saree Model">
+                    </a>
                 </div>
                 <div class="col-12 col-md-7 p-4 p-md-5 text-center text-md-start">
                     <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: #D4AF37; font-weight: 700; letter-spacing: 0.15em;">Heritage Storytelling</p>
-                    <h2 class="text-uppercase mb-3 pavitra-hero-title" style="color: #FFF !important; font-size: 2.2rem;">Desi Romance</h2>
-                    <p class="mb-4 text-white-50" style="font-size: 0.95rem; line-height: 1.7; max-width: 520px;">A rhythmic celebration of warp and weft. Authentic handloomed drapes modeled with weaver-direct wholesale pricing.</p>
-                    <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922; letter-spacing: 0.1em;">Explore Story</a>
+                    <h2 class="text-uppercase mb-3 pavitra-hero-title" style="color: #FFF !important; font-size: 2.2rem;">Desi Romance — Gotta Patti Handlooms</h2>
+                    <p class="mb-4 text-white-50" style="font-size: 0.95rem; line-height: 1.7; max-width: 520px;">A rhythmic celebration of warp and weft. Traditional Gotta Patti handwoven drapes reimagined for the modern wholesale buyer with weaver-direct pricing.</p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start align-items-center">
+                        <a href="/?category=Gotta+Patti+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922; letter-spacing: 0.1em;">Explore Story</a>
+                        <a href="/?category=Gotta+Patti+Sarees" class="text-decoration-none text-uppercase fw-bold pavitra-hero-cta px-3 py-2.5" style="color: #D4AF37; border-bottom: 2px solid #D4AF37; letter-spacing: 0.1em; font-size: 0.9rem;">See More Gotta Patti Sarees →</a>
+                    </div>
                 </div>
             </div>
         </section>
