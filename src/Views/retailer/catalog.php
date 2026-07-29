@@ -112,8 +112,9 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 55vh; min-height: 400px; max-height: 560px; background-color: #241410;">
-                    <img src="/uploads/products/Banner2.png" alt="Royal Silk Collection" style="width: 100%; height: 100%; object-fit: cover; object-position: right center;">
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 55vh; min-height: 400px; max-height: 560px; background-color: #b59877;">
+                    <div style="background-image: url('/uploads/products/Banner2.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.6); position: absolute; inset: 0;"></div>
+                    <img src="/uploads/products/Banner2.png" alt="Grace in Every Drape - Pavitra Designer" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
                     <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 30px; width: 90%; z-index: 2;">
                         <a href="/?category=Silk+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Royal Silk</a>
                     </div>
