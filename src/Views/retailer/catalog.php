@@ -104,30 +104,38 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         </div>
         <div class="carousel-inner rounded-3">
             <div class="carousel-item active">
-                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner1.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
-                        <a href="/?category=Banarasi+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
+                    <div style="background-image: url('/uploads/products/Banner1.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
+                    <img src="/uploads/products/Banner1.png" alt="Shaadi Ka Ghar Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
+                        <a href="/?category=Banarasi+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner2.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
-                        <a href="/?category=Silk+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
+                    <div style="background-image: url('/uploads/products/Banner2.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
+                    <img src="/uploads/products/Banner2.png" alt="Royal Silk Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
+                        <a href="/?category=Silk+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner3.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
-                        <a href="/?category=Bandhej+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
+                    <div style="background-image: url('/uploads/products/Banner3.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
+                    <img src="/uploads/products/Banner3.png" alt="Bandhej Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
+                        <a href="/?category=Bandhej+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: url('/uploads/products/Banner10.png'); height: 55vh; min-height: 400px; max-height: 550px; background-size: cover; background-position: center;">
-                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 35px; width: 90%;">
-                        <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow-sm" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
+                <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 52vh; min-height: 380px; max-height: 540px; background-color: #241410;">
+                    <div style="background-image: url('/uploads/products/Banner10.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); transform: scale(1.15); position: absolute; inset: 0;"></div>
+                    <img src="/uploads/products/Banner10.png" alt="Organza Banner" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
+                    <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 25px; width: 90%; z-index: 2;">
+                        <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -162,8 +170,10 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <?php endforeach; ?>
         </div>
     </div>
-    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 48vh; min-height: 380px; max-height: 520px; background-image: url('/uploads/products/Banner11.png'); background-attachment: fixed; background-size: cover; background-position: center;">
-        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-end text-center text-white p-4" style="position: relative; z-index: 2; background: linear-gradient(transparent 50%, rgba(0,0,0,0.6));">
+    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 440px; background-color: #241410;">
+        <div style="background-image: url('/uploads/products/Banner11.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); position: absolute; inset: 0; z-index: 0;"></div>
+        <img src="/uploads/products/Banner11.png" class="pavitra-parallax-img" alt="Tyoharcore Collection" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; transition: transform 0.1s ease-out;">
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-end text-center text-white p-4" style="position: relative; z-index: 2; background: linear-gradient(transparent 60%, rgba(0,0,0,0.65));">
             <a href="/?category=Bridal+Sarees" class="btn btn-outline-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="border-width: 2px; letter-spacing: 0.12em;">Explore Festive Collection →</a>
         </div>
     </div>
@@ -276,13 +286,13 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
     <div class="my-5">
         <section class="pavitra-video-banner position-relative overflow-hidden w-100 rounded-3" style="background-color: #311c17; color: #fff;">
             <div class="row g-0 align-items-center">
-                <div class="col-12 col-md-5 p-3 text-center">
-                    <img src="/uploads/products/Banner12.png" class="img-fluid rounded-3 shadow-lg" style="max-height: 420px; width: auto; object-fit: contain; border: 2px solid rgba(255,255,255,0.15);" alt="Desi Romance Feature">
+                <div class="col-12 col-md-5 p-3 p-md-4 text-center">
+                    <img src="/uploads/products/gotta patti Bandhej (1).jpg" class="img-fluid rounded-3 shadow-lg" style="max-height: 440px; width: auto; object-fit: cover; border: 2px solid rgba(212, 175, 55, 0.4);" alt="Desi Romance Saree Model">
                 </div>
                 <div class="col-12 col-md-7 p-4 p-md-5 text-center text-md-start">
                     <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: #D4AF37; font-weight: 700; letter-spacing: 0.15em;">Heritage Storytelling</p>
                     <h2 class="text-uppercase mb-3 pavitra-hero-title" style="color: #FFF !important; font-size: 2.2rem;">Desi Romance</h2>
-                    <p class="mb-4 text-white-50" style="font-size: 0.95rem; line-height: 1.7; max-width: 520px;">A rhythmic celebration of warp and weft. Handwoven drapes reimagined for the modern wholesale buyer with weaver-direct pricing.</p>
+                    <p class="mb-4 text-white-50" style="font-size: 0.95rem; line-height: 1.7; max-width: 520px;">A rhythmic celebration of warp and weft. Authentic handloomed drapes modeled with weaver-direct wholesale pricing.</p>
                     <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta" style="color: #482922; letter-spacing: 0.1em;">Explore Story</a>
                 </div>
             </div>
@@ -772,6 +782,18 @@ $(document).ready(function() {
                 scale = Math.max(scale - 0.25, 0.5);
             }
             updateTransform();
+        });
+    });
+    $(window).on('scroll resize', function() {
+        var scrollTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        $('.pavitra-parallax-container').each(function() {
+            var top = $(this).offset().top;
+            var height = $(this).outerHeight();
+            if (scrollTop + windowHeight > top && scrollTop < top + height) {
+                var progress = (scrollTop + windowHeight - top) / (windowHeight + height) - 0.5;
+                $(this).find('.pavitra-parallax-img').css('transform', 'translate(-50%, calc(-50% + ' + (progress * 60) + 'px))');
+            }
         });
     });
 });
