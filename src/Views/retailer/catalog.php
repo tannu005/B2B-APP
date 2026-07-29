@@ -46,12 +46,12 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
     <div class="category-circles-container d-flex" style="overflow-x: auto; white-space: nowrap; padding: 10px 0; -webkit-overflow-scrolling: touch;">
         <?php 
         $defaultCategories = [
-            ['name' => 'Bandhej', 'img' => '/kanjeevaram.png'],
-            ['name' => 'Banarasi', 'img' => '/banarasi.png'],
-            ['name' => 'Gotta Patti', 'img' => '/patola.png'],
-            ['name' => 'Pittan Work', 'img' => '/tissue.png'],
-            ['name' => 'Printed', 'img' => '/kanjeevaram_1782883481838.png'],
-            ['name' => 'Pyor Gotta', 'img' => '/banarasi_1782883519429.png']
+            ['name' => 'Bandhej', 'img' => '/uploads/products/Bandhej (1).jpg'],
+            ['name' => 'Banarasi', 'img' => '/uploads/products/Banner1.png'],
+            ['name' => 'Gotta Patti', 'img' => '/uploads/products/gotta patti Bandhej (1).jpg'],
+            ['name' => 'Pittan Work', 'img' => '/uploads/products/Pittan work (1).jpg'],
+            ['name' => 'Printed', 'img' => '/uploads/products/Printed (1).jpg'],
+            ['name' => 'Pyor Gotta', 'img' => '/uploads/products/Pyor Gotta Patti (1).jpg']
         ];
 
         $categoriesToRender = [];
@@ -62,7 +62,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
                 if (preg_match('/^C[0-9a-f]{7}/i', $cleanName)) {
                     $cleanName = $defaultCategories[$idx]['name'] ?? 'Saree';
                 }
-                $img = $defaultCategories[$idx]['img'] ?? '/assets/img/pavitra_logo.png';
+                $img = $defaultCategories[$idx]['img'] ?? '/uploads/products/Bandhej (1).jpg';
                 $categoriesToRender[] = [
                     'query' => $rawName,
                     'display' => $cleanName,
@@ -104,7 +104,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/saree-banner1.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
+                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/uploads/products/Banner1.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
                     <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
                         <span style="border-left: 3px solid #FFF; padding-left: 12px;">Wedding Season 2026</span>
                     </div>
@@ -116,7 +116,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/saree-banner3.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
+                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/uploads/products/Banner2.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
                     <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
                         <span style="border-left: 3px solid #FFF; padding-left: 12px;">Handloomed Zari Heritage</span>
                     </div>
@@ -128,7 +128,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/saree-banner2.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
+                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/uploads/products/Banner3.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
                     <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
                         <span style="border-left: 3px solid #FFF; padding-left: 12px;">Double Ikat Masterpiece</span>
                     </div>
@@ -140,7 +140,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/saree-banner4.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
+                <div class="w-100 position-relative" style="background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.35)), url('/uploads/products/Banner10.png'); height: 65vh; min-height: 420px; max-height: 650px; background-size: cover; background-position: center;">
                     <div class="position-absolute start-0 top-0 p-4 text-white text-uppercase d-none d-md-block" style="font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
                         <span style="border-left: 3px solid #FFF; padding-left: 12px;">Sheer Elegance</span>
                     </div>
@@ -183,7 +183,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         </div>
     </div>
     <div class="w-100 my-5 pavitra-parallax-container" style="height: 45vh; min-height: 320px; max-height: 480px;">
-        <div class="pavitra-parallax-bg" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)), url('/shaadi-banner.png');"></div>
+        <div class="pavitra-parallax-bg" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)), url('/uploads/products/Banner11.png');"></div>
         <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center text-white p-4" style="position: relative; z-index: 2;">
             <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.6);">Wholesale Wedding Collection</p>
             <h2 class="text-uppercase mb-3 pavitra-hero-title" style="text-shadow: 0 4px 15px rgba(0,0,0,0.5); color: #FFF !important;">Tyoharcore</h2>
@@ -222,7 +222,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         <div class="row g-3 g-md-4 justify-content-center">
             <?php
             $cats = [];
-            $fallbackImages = ['/kanjeevaram.png', '/banarasi.png', '/patola.png', '/tissue.png'];
+            $fallbackImages = ['/uploads/products/Bandhej (1).jpg', '/uploads/products/Banner1.png', '/uploads/products/gotta patti Bandhej (1).jpg', '/uploads/products/Pittan work (1).jpg'];
             foreach (array_slice($categoriesList, 0, 4) as $idx => $c) {
                 
                 $catImg = $fallbackImages[$idx % count($fallbackImages)]; 
@@ -299,7 +299,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
     </div>
     <div class="my-5">
         <section class="pavitra-video-banner position-relative overflow-hidden w-100" style="min-height: 450px;">
-            <img src="/uploads/products/desi-romance-bg.jpg" class="position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover;" alt="Desi Romance Background">
+            <img src="/uploads/products/Banner12.png" class="position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover;" alt="Desi Romance Background">
             <div class="pavitra-video-overlay" style="background: rgba(0,0,0,0.3); position: absolute; inset: 0;"></div>
             <div class="pavitra-video-content position-absolute d-flex flex-column justify-content-center align-items-center text-center text-white p-4" style="inset: 0; z-index: 2;">
                 <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.6);">Heritage Storytelling</p>
