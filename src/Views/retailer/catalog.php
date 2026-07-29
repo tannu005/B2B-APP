@@ -170,11 +170,13 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <?php endforeach; ?>
         </div>
     </div>
-    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 440px; background-color: #241410;">
-        <div style="background-image: url('/uploads/products/Banner11.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.35); position: absolute; inset: 0; z-index: 0;"></div>
-        <img src="/uploads/products/Banner11.png" class="pavitra-parallax-img" alt="Tyoharcore Collection" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; transition: transform 0.1s ease-out;">
-        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-end text-center text-white p-4" style="position: relative; z-index: 2; background: linear-gradient(transparent 60%, rgba(0,0,0,0.65));">
-            <a href="/?category=Bridal+Sarees" class="btn btn-outline-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="border-width: 2px; letter-spacing: 0.12em;">Explore Festive Collection →</a>
+    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 45vh; min-height: 360px; max-height: 480px;">
+        <div class="pavitra-parallax-bg" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)), url('/uploads/products/Banner11.png');"></div>
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center text-white p-4" style="position: relative; z-index: 2;">
+            <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8); font-weight: 700; letter-spacing: 0.12em;">Wholesale Wedding Collection</p>
+            <h2 class="text-uppercase mb-3 pavitra-hero-title" style="text-shadow: 0 4px 15px rgba(0,0,0,0.8); color: #FFF !important; font-size: 2.2rem;">Tyoharcore</h2>
+            <p class="mb-4" style="font-size: 0.9rem; color: rgba(255,255,255,0.9); text-shadow: 0 2px 8px rgba(0,0,0,0.8); max-width: 520px; line-height: 1.6;">Festive silks handpicked for the bridal season. Bulk orders with exclusive wholesale margins.</p>
+            <a href="/?category=Bridal+Sarees" class="btn btn-outline-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="border-width: 2px; letter-spacing: 0.1em;">Explore Collection</a>
         </div>
     </div>
     <div class="carousel-section-wrapper position-relative my-5 py-3" style="font-family: 'Nunito', sans-serif;">
@@ -781,19 +783,7 @@ $(document).ready(function() {
             } else {
                 scale = Math.max(scale - 0.25, 0.5);
             }
-            updateTransform();
-        });
-    });
-    $(window).on('scroll resize', function() {
-        var scrollTop = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        $('.pavitra-parallax-container').each(function() {
-            var top = $(this).offset().top;
-            var height = $(this).outerHeight();
-            if (scrollTop + windowHeight > top && scrollTop < top + height) {
-                var progress = (scrollTop + windowHeight - top) / (windowHeight + height) - 0.5;
-                $(this).find('.pavitra-parallax-img').css('transform', 'translate(-50%, calc(-50% + ' + (progress * 60) + 'px))');
-            }
+        updateTransform();
         });
     });
 });
