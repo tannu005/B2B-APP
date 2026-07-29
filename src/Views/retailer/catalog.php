@@ -167,7 +167,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         </div>
     </div>
     <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 45vh; min-height: 360px; max-height: 480px;">
-        <div class="pavitra-parallax-bg" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)), url('/uploads/products/Banner11.png');"></div>
+        <div class="pavitra-parallax-bg" style="background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.35)), url('/uploads/products/tyoharcore_festive.png');"></div>
         <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center text-white p-4" style="position: relative; z-index: 2;">
             <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8); font-weight: 700; letter-spacing: 0.12em;">Wholesale Wedding Collection</p>
             <h2 class="text-uppercase mb-3 pavitra-hero-title" style="text-shadow: 0 4px 15px rgba(0,0,0,0.8); color: #FFF !important; font-size: 2.2rem;">Tyoharcore</h2>
