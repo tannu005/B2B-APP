@@ -40,6 +40,11 @@ $hoverImg = !empty($p['hover_image_url']) ? $p['hover_image_url'] : ($p['image_u
     <?php
     return ob_get_clean();
 }
+$minPrice = floatval($minPrice ?? 0);
+$maxPrice = floatval($maxPrice ?? 0);
+$selectedCategory = $selectedCategory ?? '';
+$searchQuery = $searchQuery ?? '';
+$sort = $sort ?? '';
 $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort) || ($minPrice > 0) || ($maxPrice > 0) || !empty($_GET['all_sarees']);
 ?>
 <div class="container-xl py-2 py-md-4">
@@ -130,9 +135,10 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             </div>
             <div class="carousel-item">
                 <div class="w-100 position-relative overflow-hidden rounded-3" style="height: 55vh; min-height: 400px; max-height: 560px; background-color: #241410;">
-                    <img src="/uploads/products/Banner10.png" alt="Organza & Tissue Collection" style="width: 100%; height: 100%; object-fit: cover; object-position: right center;">
+                    <div style="background-image: url('/uploads/products/Banner11.png'); background-size: cover; background-position: center; filter: blur(25px) brightness(0.5); position: absolute; inset: 0;"></div>
+                    <img src="/uploads/products/Banner11.png" alt="Bridal & Wedding Collection" style="max-height: 100%; max-width: 100%; object-fit: contain; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
                     <div class="position-absolute start-50 translate-middle-x text-center" style="bottom: 30px; width: 90%; z-index: 2;">
-                        <a href="/?category=Organza+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Organza Sarees</a>
+                        <a href="/?category=Bridal+Sarees" class="btn btn-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="color: #482922; letter-spacing: 0.12em; font-size: 0.85rem;">Shop Bridal Collection</a>
                     </div>
                 </div>
             </div>
@@ -140,7 +146,7 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide-to="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
     </div>
