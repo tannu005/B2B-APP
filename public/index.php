@@ -68,16 +68,8 @@ try {
         require __DIR__ . '/sync_real_data.php';
         exit;
     }
-    if (!file_exists(dirname(__DIR__) . '/sync_completed.txt')) {
-        $syncController = new \App\Controllers\SuperAdminController();
-        $syncController->syncDataset(new Core\Request(), clone $app->response);
-        file_put_contents(dirname(__DIR__) . '/sync_completed.txt', '1');
-        header("Location: /");
-        exit;
-    }
 } catch (\Throwable $e) { 
-    echo "SYNC ERROR: " . $e->getMessage() . " at " . $e->getFile() . ":" . $e->getLine(); 
-    exit; 
+    error_log("Index init error: " . $e->getMessage());
 }
 
 $app->router->get('/login', [App\Controllers\AuthController::class, 'loginView']);
