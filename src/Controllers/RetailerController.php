@@ -20,22 +20,23 @@ class RetailerController extends Controller {
         }
         // Removed hardcoded keyword map as categories are now dynamically built during sync
         $sql = "
-            SELECT p.*, 
+            SELECT p.id, p.title, p.description, p.brand_name, p.status, p.created_at,
                    MIN(pv.id) as variant_id, 
                    MIN(pv.wholesale_price) as wholesale_price, 
                    MIN(pv.price) as price, 
                    MIN(pv.image_url) as image_url, 
-                   (SELECT pi.image_url FROM product_images pi WHERE pi.product_id = p.id AND pi.is_primary = 0 ORDER BY pi.id ASC LIMIT 1) as hover_image_url,
+                   MIN(pi.image_url) as hover_image_url,
                    MIN(pv.bulk_threshold) as bulk_threshold, 
                    MIN(pv.stock) as stock, 
                    MIN(pv.sku) as sku, 
                    GROUP_CONCAT(pv.color ORDER BY pv.id ASC SEPARATOR '|') as all_colors, 
                    MIN(pv.weight) as weight, 
                    MIN(pv.dimensions) as dimensions, 
-                   c.name as category_name 
+                   MAX(c.name) as category_name 
             FROM products p 
             JOIN product_variants pv ON pv.product_id = p.id
             LEFT JOIN categories c ON p.category_id = c.id
+            LEFT JOIN product_images pi ON pi.product_id = p.id AND pi.is_primary = 0
             WHERE p.status = 'ACTIVE'
         ";
         $params = [];
@@ -64,12 +65,19 @@ class RetailerController extends Controller {
         } else {
             $sql .= " ORDER BY p.id DESC";
         }
-        $stmtProducts = $db->prepare($sql);
-        $stmtProducts->execute($params);
-        $products = $stmtProducts->fetchAll() ?: [];
         
-        $stmtCat = $db->query("SELECT id, name FROM categories");
-        $categoriesList = $stmtCat->fetchAll() ?: [];
+        $products = [];
+        $categoriesList = [];
+        try {
+            $stmtProducts = $db->prepare($sql);
+            $stmtProducts->execute($params);
+            $products = $stmtProducts->fetchAll() ?: [];
+            
+            $stmtCat = $db->query("SELECT id, name FROM categories");
+            $categoriesList = $stmtCat->fetchAll() ?: [];
+        } catch (\Throwable $e) {
+            error_log("Catalog query error: " . $e->getMessage());
+        }
         
         return $this->render('retailer/catalog', [
             'title' => 'Pavitra Designer Wholesale - Pavitra Style Shop',
