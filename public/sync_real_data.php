@@ -1,5 +1,5 @@
 <?php
-spl_autoload_register(function ($class) { $b=__DIR__.'/'; $p=['Core\\'=>'core/','App\\'=>'src/']; foreach($p as $pr=>$d){ $l=strlen($pr); if(strncmp($pr,$class,$l)!==0)continue; $r=substr($class,$l); $f=$b.$d.str_replace('\\','/',$r).'.php'; if(file_exists($f)){require $f;return;} } });
+spl_autoload_register(function ($class) { $b=dirname(__DIR__).'/'; $p=['Core\\'=>'core/','App\\'=>'src/']; foreach($p as $pr=>$d){ $l=strlen($pr); if(strncmp($pr,$class,$l)!==0)continue; $r=substr($class,$l); $f=$b.$d.str_replace('\\','/',$r).'.php'; if(file_exists($f)){require $f;return;} } });
 $app = new \Core\Application();
 $pdo = (new \ReflectionProperty($app->db, 'pdo'))->getValue($app->db);
 $pdo->exec('SET FOREIGN_KEY_CHECKS = 0; TRUNCATE TABLE categories; TRUNCATE TABLE products; TRUNCATE TABLE product_variants; TRUNCATE TABLE product_images;');

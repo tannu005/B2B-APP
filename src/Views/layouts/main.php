@@ -63,7 +63,7 @@ $canonicalUrl = $scheme . ($_SERVER['HTTP_HOST'] ?? 'localhost') . $canonicalPat
                     </a>
                 <?php else: ?>
                     <a href="/" class="pavitra-logo" style="margin-right: 10px; text-decoration: none;">
-                        <img loading="lazy" src="/assets/img/pavitra_logo.png" alt="Pavitra Designer Saree" style="height: 38px; width: auto; display: block;" class="pavitra-logo-img">
+                        <img loading="lazy" src="/assets/img/pavitra_logo.png?v=<?= time() ?>" alt="Pavitra Designer Saree" style="height: 42px; width: auto; display: block; border-radius: 4px;" class="pavitra-logo-img">
                     </a>
                 <?php endif; ?>
             </div>
@@ -93,7 +93,7 @@ $canonicalUrl = $scheme . ($_SERVER['HTTP_HOST'] ?? 'localhost') . $canonicalPat
     <header class="pavitra-header py-2">
         <div class="container-xl d-flex align-items-center justify-content-between">
             <a href="/" class="pavitra-logo" style="text-decoration: none;">
-                <img loading="lazy" src="/assets/img/pavitra_logo.png" alt="Pavitra Designer Saree" style="height: 48px; width: auto; display: block;" class="pavitra-logo-img">
+                <img loading="lazy" src="/assets/img/pavitra_logo.png?v=<?= time() ?>" alt="Pavitra Designer Saree" style="height: 52px; width: auto; display: block; border-radius: 6px;" class="pavitra-logo-img">
             </a>
             <div class="pavitra-desktop-menu d-flex flex-column align-items-center gap-1">
                 <div class="menu-row-1 d-flex gap-4">
@@ -598,7 +598,7 @@ $canonicalUrl = $scheme . ($_SERVER['HTTP_HOST'] ?? 'localhost') . $canonicalPat
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
                     <a href="/" class="pavitra-logo d-inline-block mb-3">
-                        <img loading="lazy" src="/assets/img/pavitra_logo.png" alt="Pavitra Designer Saree" style="height: 48px; width: auto; display: block;" class="pavitra-logo-img">
+                        <img loading="lazy" src="/assets/img/pavitra_logo.png?v=<?= time() ?>" alt="Pavitra Designer Saree" style="height: 52px; width: auto; display: block; border-radius: 6px;" class="pavitra-logo-img">
                     </a>
                     <p style="font-size: 0.82rem; line-height: 1.8; color: rgba(255,255,255,0.4);">India's premier wholesale saree marketplace. Weaver-direct GI-tagged handlooms for discerning retailers.</p>
                     <div class="pavitra-footer-social mt-3">
