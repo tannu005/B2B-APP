@@ -627,16 +627,16 @@ $canonicalUrl = $scheme . ($_SERVER['HTTP_HOST'] ?? 'localhost') . $canonicalPat
                                 <a href="/support" class="d-block mb-1" style="color: #fff; text-decoration: none;">FAQs</a>
                             </div>
                             <div class="col-6">
-                                <strong>Buyer Support:</strong><br> <a href="mailto:supporttearm2001@gmail.com" style="color: #fff; text-decoration: none;">supporttearm2001@gmail.com</a><br>
-                                <strong class="mt-2 d-inline-block">Seller Support:</strong><br> <a href="mailto:p14115419@gmail.com" style="color: #fff; text-decoration: none;">p14115419@gmail.com</a><br>
-                                <strong class="mt-2 d-inline-block">Admin:</strong><br> <a href="mailto:pavitrasupport.com@gmail.com" style="color: #fff; text-decoration: none;">pavitrasupport.com@gmail.com</a>
+                                <strong>Support Helpline:</strong><br> <a href="tel:+916378383922" style="color: #fff; text-decoration: none; font-weight: bold;"><i class="fa-solid fa-phone me-1"></i>+91 63783 83922</a><br>
+                                <strong class="mt-1 d-inline-block">WhatsApp Desk:</strong><br> <a href="https://wa.me/916378383922" target="_blank" style="color: #25D366; text-decoration: none; font-weight: bold;"><i class="fa-brands fa-whatsapp me-1"></i>+91 63783 83922</a><br>
+                                <strong class="mt-1 d-inline-block">Email Support:</strong><br> <a href="mailto:supporttearm2001@gmail.com" style="color: #fff; text-decoration: none;">supporttearm2001@gmail.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5>Wholesale Enquiry</h5>
-                    <p style="font-size: 0.82rem; line-height: 1.8; color: rgba(255,255,255,0.4);">Minimum order: 5 pieces per design. Bulk discounts available for orders of 50+ pieces.</p>
+                    <p style="font-size: 0.82rem; line-height: 1.8; color: rgba(255,255,255,0.6);">Bulk Weaver-Direct Orders: <a href="tel:+916378383922" style="color: #fff; text-decoration: none; font-weight: bold;">+91 63783 83922</a>. Minimum order 5 pcs per design.</p>
                     <div class="d-flex gap-2 mt-3 flex-wrap">
                         <span style="font-size: 1.4rem; color: rgba(255,255,255,0.3);"><i class="fa-brands fa-cc-visa"></i></span>
                         <span style="font-size: 1.4rem; color: rgba(255,255,255,0.3);"><i class="fa-brands fa-cc-mastercard"></i></span>
