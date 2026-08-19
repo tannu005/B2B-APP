@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', '0');
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE & ~E_WARNING);
+
 if (php_sapi_name() === 'cli-server') {
     $path = urldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
     $filepath = __DIR__ . $path;

@@ -179,7 +179,7 @@ $saving = number_format(($price > 0 ? $price : $wholesalePrice + 8500) - $wholes
                         </div>
                         <div class="col-6">
                             <div class="small text-muted">Saree Fabric</div>
-                            <div class="fw-bold text-dark"><?= htmlspecialchars($p['category_name']) ?></div>
+                            <div class="fw-bold text-dark"><?= htmlspecialchars((string)($p['category_name'] ?? 'Handloom Silk')) ?></div>
                         </div>
                         <div class="col-6">
                             <div class="small text-muted">Ornamentation</div>
@@ -191,11 +191,11 @@ $saving = number_format(($price > 0 ? $price : $wholesalePrice + 8500) - $wholes
                         </div>
                         <div class="col-6">
                             <div class="small text-muted">SKU</div>
-                            <div class="fw-bold text-dark" id="detail-sku"><?= htmlspecialchars($p['sku']) ?></div>
+                            <div class="fw-bold text-dark" id="detail-sku"><?= htmlspecialchars((string)($p['sku'] ?? 'PAV-001')) ?></div>
                         </div>
                         <div class="col-6">
                             <div class="small text-muted">Weight</div>
-                            <div class="fw-bold text-dark"><?= htmlspecialchars($p['weight']) ?> g</div>
+                            <div class="fw-bold text-dark"><?= htmlspecialchars((string)($p['weight'] ?? '750')) ?> g</div>
                         </div>
                     </div>
                 </div>
@@ -291,9 +291,9 @@ $saving = number_format(($price > 0 ? $price : $wholesalePrice + 8500) - $wholes
                                 <div class="col-5 text-muted fw-semibold">Dimensions:</div>
                                 <div class="col-7 text-dark fw-bold"><?= htmlspecialchars($p['dimensions'] ?? 'Standard Saree') ?></div>
                                 <div class="col-5 text-muted fw-semibold">SKU:</div>
-                                <div class="col-7 text-dark fw-bold"><?= htmlspecialchars($p['sku']) ?></div>
+                                <div class="col-7 text-dark fw-bold"><?= htmlspecialchars((string)($p['sku'] ?? 'PAV-001')) ?></div>
                                 <div class="col-5 text-muted fw-semibold">Weight:</div>
-                                <div class="col-7 text-dark fw-bold"><?= htmlspecialchars($p['weight'] ?? 'N/A') ?></div>
+                                <div class="col-7 text-dark fw-bold"><?= htmlspecialchars((string)($p['weight'] ?? '750 g')) ?></div>
                             </div>
                         </div>
                     </div>
@@ -306,12 +306,12 @@ $saving = number_format(($price > 0 ? $price : $wholesalePrice + 8500) - $wholes
     <div class="container-xl">
         <div class="row g-2 justify-content-end align-items-center">
             <div class="col-6 col-md-3">
-                <button class="btn btn-outline-dark w-100 py-2.5 fw-bold text-uppercase d-flex align-items-center justify-content-center gap-2" id="detail-buy-now-btn" data-variant-id="<?= htmlspecialchars($p['variant_id']) ?>" style="border-radius: 4px; font-size: 0.85rem; letter-spacing: 0.05em; border-color: var(--pavitra-pink) !important; color: var(--pavitra-pink) !important;">
+                <button class="btn btn-outline-dark w-100 py-2.5 fw-bold text-uppercase d-flex align-items-center justify-content-center gap-2" id="detail-buy-now-btn" data-variant-id="<?= htmlspecialchars((string)($p['variant_id'] ?? $p['id'])) ?>" style="border-radius: 4px; font-size: 0.85rem; letter-spacing: 0.05em; border-color: var(--pavitra-pink) !important; color: var(--pavitra-pink) !important;">
                     <i class="fa-solid fa-bag-shopping"></i> Buy Now
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="btn w-100 py-2.5 fw-bold text-uppercase text-white d-flex align-items-center justify-content-center gap-2" id="detail-add-bag-btn" data-variant-id="<?= htmlspecialchars($p['variant_id']) ?>" style="background: var(--pavitra-pink); border-radius: 4px; font-size: 0.85rem; letter-spacing: 0.05em; border: none;">
+                <button class="btn w-100 py-2.5 fw-bold text-uppercase text-white d-flex align-items-center justify-content-center gap-2" id="detail-add-bag-btn" data-variant-id="<?= htmlspecialchars((string)($p['variant_id'] ?? $p['id'])) ?>" style="background: var(--pavitra-pink); border-radius: 4px; font-size: 0.85rem; letter-spacing: 0.05em; border: none;">
                     <i class="fa-solid fa-bag-shopping"></i> Add to Bag
                 </button>
             </div>
