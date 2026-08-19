@@ -1,0 +1,2027 @@
+﻿[
+    {
+        "catId":  "1",
+        "name":  "Royal Blue Bandhej Saree",
+        "desc":  "A vibrant royal blue Bandhej saree with intricate white tie-dye patterns and a unique pallu featuring broad gold and dark blue stripes.",
+        "slug":  "royal-blue-bandhej-saree",
+        "price":  4000,
+        "wholesale":  2800,
+        "photo":  "uploads/products/Bandhej (1).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Navy Blue and White Bandhej Saree",
+        "desc":  "A striking navy blue Bandhej saree with a large, intricate white and light blue circular pattern on the pallu and a bold gold striped border.",
+        "slug":  "navy-blue-white-bandhej-saree",
+        "price":  4500,
+        "wholesale":  3150,
+        "photo":  "uploads/products/Bandhej (2).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Teal Bandhej Saree",
+        "desc":  "A rich teal Bandhej saree featuring small yellow dot patterns and a golden pallu with detailed motifs of human figures.",
+        "slug":  "teal-bandhej-saree",
+        "price":  4200,
+        "wholesale":  2940,
+        "photo":  "uploads/products/Bandhej (3).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Light Purple Bandhej Saree",
+        "desc":  "A delicate light purple Bandhej saree with subtle white tie-dye dots and a wide, elegant golden border on the pallu.",
+        "slug":  "light-purple-bandhej-saree",
+        "price":  3800,
+        "wholesale":  2660,
+        "photo":  "uploads/products/Bandhej (4).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Red and Rainbow Bandhej Saree",
+        "desc":  "A striking Bandhej saree with a red top half and a vibrant rainbow-striped bottom half, finished with a classic red and gold border.",
+        "slug":  "red-rainbow-bandhej-saree",
+        "price":  5000,
+        "wholesale":  3500,
+        "photo":  "uploads/products/Bandhej (5).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Classic Red Bandhej Saree",
+        "desc":  "A traditional red Bandhej saree adorned with small white and yellow tie-dye dot patterns and a pallu featuring intricate white paisley designs and a golden border.",
+        "slug":  "classic-red-bandhej-saree",
+        "price":  4100,
+        "wholesale":  2870,
+        "photo":  "uploads/products/Bandhej (6).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Rainbow and Red Bandhej Saree",
+        "desc":  "A vibrant Bandhej saree featuring a red top portion and a multi-colored rainbow-striped design, leading to a traditional red and gold woven border.",
+        "slug":  "rainbow-red-bandhej-saree",
+        "price":  5000,
+        "wholesale":  3500,
+        "photo":  "uploads/products/Bandhej (7).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Purple Geometric Bandhej Saree",
+        "desc":  "A sophisticated purple Bandhej saree with complex geometric patterns in white and orange, complemented by an ornate golden border.",
+        "slug":  "purple-geometric-bandhej-saree",
+        "price":  4800,
+        "wholesale":  3360,
+        "photo":  "uploads/products/Bandhej (8).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Green Bandhej Saree",
+        "desc":  "A bright green Bandhej saree with all-over intricate white and yellow patterns forming floral and geometric shapes.",
+        "slug":  "green-bandhej-saree",
+        "price":  4300,
+        "wholesale":  3010,
+        "photo":  "uploads/products/Bandhej (9).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Coral Red Bandhej Saree",
+        "desc":  "A beautiful coral red Bandhej saree with subtle white and orange tie-dye dots arranged in floral and diamond-shaped motifs across the fabric.",
+        "slug":  "coral-red-bandhej-saree",
+        "price":  4100,
+        "wholesale":  2870,
+        "photo":  "uploads/products/Bandhej (10).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Red and Pink Diamond Bandhej Saree",
+        "desc":  "A vibrant Bandhej saree in a red and pink color combination, featuring distinct diamond-shaped patterns with intricate floral and dot motifs.",
+        "slug":  "red-pink-diamond-bandhej-saree",
+        "price":  5200,
+        "wholesale":  3640,
+        "photo":  "uploads/products/Bandhej (11).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Hot Pink and Red Bandhej Saree",
+        "desc":  "A stunning hot pink Bandhej saree with prominent red and orange diamond patterns, each with a detailed floral center.",
+        "slug":  "hot-pink-red-bandhej-saree",
+        "price":  5100,
+        "wholesale":  3570,
+        "photo":  "uploads/products/Bandhej (12).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Hot Pink Circle Bandhej Saree",
+        "desc":  "This hot pink Bandhej saree features two large, prominent circular patterns created from fine white tie-dye dots, giving it a classic and delicate look.",
+        "slug":  "hot-pink-circle-bandhej-saree",
+        "price":  4900,
+        "wholesale":  3430,
+        "photo":  "uploads/products/Bandhej (18).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Green Circle Bandhej Saree",
+        "desc":  "A bright green Bandhej saree with two prominent circular patterns created from fine white tie-dye dots, complemented by scattered dots across the fabric.",
+        "slug":  "green-circle-bandhej-saree",
+        "price":  5000,
+        "wholesale":  3500,
+        "photo":  "uploads/products/Bandhej (19).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Red and Orange Bandhej Saree",
+        "desc":  "A vibrant red Bandhej saree with two large circular patterns that transition from orange to yellow and a deep red center, and fine wave-like patterns.",
+        "slug":  "red-orange-bandhej-saree",
+        "price":  5300,
+        "wholesale":  3710,
+        "photo":  "uploads/products/Bandhej (20).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Red and Hot Pink Circle Bandhej Saree",
+        "desc":  "This vibrant red Bandhej saree features two large, circular designs in a bold hot pink with finely detailed concentric patterns.",
+        "slug":  "red-hot-pink-circle-bandhej-saree",
+        "price":  5200,
+        "wholesale":  3640,
+        "photo":  "uploads/products/Bandhej (21).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Red, Pink, and Gold Brocade Saree",
+        "desc":  "A luxurious Bandhej saree that transitions from deep red to hot pink, adorned with a heavy gold woven brocade pattern and a broad, intricate gold border.",
+        "slug":  "red-pink-gold-brocade-saree",
+        "price":  6500,
+        "wholesale":  4550,
+        "photo":  "uploads/products/Bandhej (23).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Green and Gold Brocade Saree",
+        "desc":  "An elegant dark green Bandhej saree with a rich, all-over gold woven brocade pattern featuring large paisley and geometric motifs, and a wide, detailed border.",
+        "slug":  "green-gold-brocade-saree",
+        "price":  6800,
+        "wholesale":  4760,
+        "photo":  "uploads/products/Bandhej (24).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Blue, Green, and Gold Brocade Saree",
+        "desc":  "A stunning saree that fades from royal blue to teal green, featuring an elaborate gold woven brocade pattern of floral and geometric shapes with a wide, decorative border.",
+        "slug":  "blue-green-gold-brocade-saree",
+        "price":  6700,
+        "wholesale":  4690,
+        "photo":  "uploads/products/Bandhej (26).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Magenta and Gold Brocade Saree",
+        "desc":  "A rich magenta and hot pink Bandhej saree with a broad, ornate gold woven border and an all-over intricate gold pattern, reminiscent of a Banarasi weave.",
+        "slug":  "magenta-gold-brocade-saree",
+        "price":  6600,
+        "wholesale":  4620,
+        "photo":  "uploads/products/Bandhej (27).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Royal Blue and Gold Brocade Saree",
+        "desc":  "An elegant royal blue saree with an all-over heavy gold brocade pattern, including large paisley-like motifs and a diamond pattern, and a wide, intricate gold border.",
+        "slug":  "royal-blue-gold-brocade-saree",
+        "price":  7200,
+        "wholesale":  5040,
+        "photo":  "uploads/products/Bandhej (28).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Pink, Green, and Gold Brocade Saree",
+        "desc":  "A multi-colored saree that transitions from magenta and pink to green and gold, covered in a heavy gold brocade pattern featuring intricate leaf and floral motifs.",
+        "slug":  "pink-green-gold-brocade-saree",
+        "price":  7300,
+        "wholesale":  5110,
+        "photo":  "uploads/products/Bandhej (30).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Red and Gold Banarasi-style Saree",
+        "desc":  "A traditional red saree with a lush gold woven pattern that combines large oval motifs with smaller floral patterns, and a wide, intricate gold border.",
+        "slug":  "red-gold-banarasi-style-saree",
+        "price":  7000,
+        "wholesale":  4900,
+        "photo":  "uploads/products/Bandhej (31).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Red and Gold Brocade Saree",
+        "desc":  "This stunning red saree is adorned with a rich, all-over gold brocade pattern, featuring a mix of a large, intricate diamond pattern and a detailed leaf motif, with a heavy, ornate gold border.",
+        "slug":  "red-gold-brocade-saree",
+        "price":  7100,
+        "wholesale":  4970,
+        "photo":  "uploads/products/Bandhej (33).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Teal Bandhej Saree",
+        "desc":  "A beautiful teal Bandhej saree with an all-over fine white dot pattern and a pallu highlighted by a wide, striking gold border.",
+        "slug":  "teal-bandhej-saree",
+        "price":  4500,
+        "wholesale":  3150,
+        "photo":  "uploads/products/Bandhej (35).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Golden Yellow Bandhej Saree",
+        "desc":  "A bright golden yellow Bandhej saree with small white dot patterns, and a wide, shimmery gold border on the pallu.",
+        "slug":  "golden-yellow-bandhej-saree",
+        "price":  4400,
+        "wholesale":  3080,
+        "photo":  "uploads/products/Bandhej (36).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Pink Saree",
+        "desc":  "Bandhej",
+        "slug":  "pink-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (37).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Emerald Saree",
+        "desc":  "Bandhej",
+        "slug":  "emerald-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (38).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Mocha Saree",
+        "desc":  "Bandhej",
+        "slug":  "mocha-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (39).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Cobalt Saree",
+        "desc":  "Bandhej",
+        "slug":  "cobalt-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (40).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Mahogany Saree",
+        "desc":  "Bandhej",
+        "slug":  "mahogany-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (41).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Slate Saree",
+        "desc":  "Bandhej",
+        "slug":  "slate-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (42).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Indigo Saree",
+        "desc":  "Bandhej",
+        "slug":  "indigo-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (43).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Lilac Saree",
+        "desc":  "Bandhej",
+        "slug":  "lilac-bandhej",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Bandhej (44).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Golden-Pink-Red Gotta Patti Bandhej",
+        "desc":  "Oval and floral gold zari design",
+        "slug":  "golden-pink-red-zari",
+        "price":  5700,
+        "wholesale":  3990,
+        "photo":  "uploads/products/gotta patti Bandhej (1).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Golden-Pink-Red Gotta Patti Bandhej",
+        "desc":  "Oval and floral gold zari design",
+        "slug":  "golden-pink-red-zari-alt",
+        "price":  5700,
+        "wholesale":  3990,
+        "photo":  "uploads/products/gotta patti Bandhej (2).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Beautiful pink Bandhej saree with intricate gotta patti embroidery and golden border.",
+        "slug":  "gotta-patti-bandhej-1",
+        "price":  5500,
+        "wholesale":  3850,
+        "photo":  "uploads/products/gotta patti Bandhej (3).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Elegant pink Bandhej saree with golden zari border and traditional patterns.",
+        "slug":  "gotta-patti-bandhej-2",
+        "price":  5600,
+        "wholesale":  3920,
+        "photo":  "uploads/products/gotta patti Bandhej (4).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Red Bandhej saree with heavy gotta patti work and golden finishing.",
+        "slug":  "gotta-patti-bandhej-3",
+        "price":  5800,
+        "wholesale":  4060,
+        "photo":  "uploads/products/gotta patti Bandhej (5).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Royal red Bandhej saree with floral gotta patti embroidery and zari border.",
+        "slug":  "gotta-patti-bandhej-4",
+        "price":  6000,
+        "wholesale":  4200,
+        "photo":  "uploads/products/gotta patti Bandhej (6).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Classic pink Bandhej saree with heavy border work and golden detailing.",
+        "slug":  "gotta-patti-bandhej-5",
+        "price":  5700,
+        "wholesale":  3990,
+        "photo":  "uploads/products/gotta patti Bandhej (7).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Pink Bandhej saree featuring traditional diamond patterns and gotta patti finish.",
+        "slug":  "gotta-patti-bandhej-6",
+        "price":  5600,
+        "wholesale":  3920,
+        "photo":  "uploads/products/gotta patti Bandhej (8).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Designer pink Bandhej saree with elephant and peacock motifs in gotta patti.",
+        "slug":  "gotta-patti-bandhej-7",
+        "price":  6200,
+        "wholesale":  4340,
+        "photo":  "uploads/products/gotta patti Bandhej (9).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Traditional Bandhej saree in magenta shade with heavy border work.",
+        "slug":  "gotta-patti-bandhej-8",
+        "price":  5900,
+        "wholesale":  4130,
+        "photo":  "uploads/products/gotta patti Bandhej (10).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Bandhej Saree",
+        "desc":  "Exclusive Bandhej saree with detailed floral gotta patti embroidery.",
+        "slug":  "gotta-patti-bandhej-9",
+        "price":  6100,
+        "wholesale":  4270,
+        "photo":  "uploads/products/gotta patti Bandhej (11).jpg"
+    },
+    {
+        "catId":  "1",
+        "name":  "Gotta Patti Chunri Saree",
+        "desc":  "Red Bandhej Chunri saree with intricate gotta patti border, floral motifs, and diamond-shaped Bandhej patterns.",
+        "slug":  "gotta-patti-chunri-1",
+        "price":  4600,
+        "wholesale":  3220,
+        "photo":  "uploads/products/Gotta Patti Chunri (1).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Bandhani Chunri",
+        "desc":  "Traditional red bandhani saree with golden gotta patti border",
+        "slug":  "red-bandhani-chunri",
+        "price":  4800,
+        "wholesale":  3360,
+        "photo":  "uploads/products/Gotta Patti Chunri (2).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Magenta Bandhani Chunri",
+        "desc":  "Elegant magenta bandhani saree with golden border",
+        "slug":  "magenta-bandhani-chunri",
+        "price":  4800,
+        "wholesale":  3360,
+        "photo":  "uploads/products/Gotta Patti Chunri (3).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Designer Bandhani Chunri",
+        "desc":  "Handcrafted bandhani chunri with floral motifs and zari work",
+        "slug":  "designer-bandhani-chunri",
+        "price":  4500,
+        "wholesale":  3150,
+        "photo":  "uploads/products/Gotta Patti Chunri (4).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Multicolor Bandhani Chunri",
+        "desc":  "Red saree with multicolor bandhani designs and gotta work",
+        "slug":  "multicolor-bandhani-chunri",
+        "price":  4500,
+        "wholesale":  3150,
+        "photo":  "uploads/products/Gotta Patti Chunri (5).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Classic Red Bandhani Chunri",
+        "desc":  "Rich red bandhani saree with detailed golden border",
+        "slug":  "classic-red-bandhani-chunri",
+        "price":  4800,
+        "wholesale":  3360,
+        "photo":  "uploads/products/Gotta Patti Chunri (6).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Bandhani with Floral Work",
+        "desc":  "Chunri with red base, white bandhani dots and floral gotta motifs",
+        "slug":  "red-floral-bandhani-chunri",
+        "price":  5000,
+        "wholesale":  3500,
+        "photo":  "uploads/products/Gotta Patti Chunri (7).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Velvet Style Bandhani Chunri",
+        "desc":  "Luxurious velvet-look bandhani chunri with intricate gotta patti border",
+        "slug":  "velvet-style-bandhani-chunri",
+        "price":  4900,
+        "wholesale":  3430,
+        "photo":  "uploads/products/Gotta Patti Chunri (8).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Heavy Border Bandhani Chunri",
+        "desc":  "Saree with heavy embroidery border and colorful motifs",
+        "slug":  "heavy-border-bandhani-chunri",
+        "price":  6000,
+        "wholesale":  4200,
+        "photo":  "uploads/products/Gotta Patti Chunri (9).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Dark Red Chunri - Intricate Silver Gota Patti",
+        "desc":  "A stunning dark red chunri with a traditional bandhani pattern. The entire piece is richly adorned with intricate silver gota patti work, featuring elegant paisley and floral designs, perfect for weddings and special events.",
+        "slug":  "dark-red-chunri-intricate-silver-gota-patti",
+        "price":  6200,
+        "wholesale":  4340,
+        "photo":  "uploads/products/Gotta Patti Chunri (12).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Peacock Design",
+        "desc":  "Traditional red Chunri with intricate Gotta Patti and Peacock motifs",
+        "slug":  "red-gotta-patti-chunri-peacock",
+        "price":  4399,
+        "wholesale":  3079,
+        "photo":  "uploads/products/Gotta Patti Chunri (13).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Floral Border",
+        "desc":  "Elegant Chunri featuring golden floral border embroidery with bandhani style dots",
+        "slug":  "red-gotta-patti-chunri-floral",
+        "price":  5599,
+        "wholesale":  3919,
+        "photo":  "uploads/products/Gotta Patti Chunri (14).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Large Floral Pattern",
+        "desc":  "Red Chunri with central floral embroidery and detailed border work",
+        "slug":  "red-gotta-patti-chunri-large-floral",
+        "price":  4799,
+        "wholesale":  3359,
+        "photo":  "uploads/products/Gotta Patti Chunri (15).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Full Embroidery Border",
+        "desc":  "Heavy border embroidered Chunri with delicate Gotta Patti details",
+        "slug":  "red-gotta-patti-chunri-heavy-border",
+        "price":  4799,
+        "wholesale":  3359,
+        "photo":  "uploads/products/Gotta Patti Chunri (16).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Traditional Bandhani Style",
+        "desc":  "Traditional bandhani style Chunri enhanced with golden Gotta Patti border",
+        "slug":  "red-gotta-patti-chunri-bandhani",
+        "price":  3399,
+        "wholesale":  2379,
+        "photo":  "uploads/products/Gotta Patti Chunri (17).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Golden Leaf Border",
+        "desc":  "Red Chunri featuring golden leaf motifs and Gotta Patti embellishments",
+        "slug":  "red-gotta-patti-chunri-leaf-border",
+        "price":  3599,
+        "wholesale":  2519,
+        "photo":  "uploads/products/Gotta Patti Chunri (18).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Wedding Special",
+        "desc":  "Special wedding Chunri with intricate Gotta Patti and peacock motifs",
+        "slug":  "red-gotta-patti-chunri-wedding",
+        "price":  3999,
+        "wholesale":  2799,
+        "photo":  "uploads/products/Gotta Patti Chunri (19).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Designer Border",
+        "desc":  "Designer Chunri with diamond patterned embroidery and golden lace border",
+        "slug":  "red-gotta-patti-chunri-designer",
+        "price":  3899,
+        "wholesale":  2729,
+        "photo":  "uploads/products/Gotta Patti Chunri (20).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Gotta Patti Chunri - Royal Design",
+        "desc":  "Royal style Chunri with detailed peacock, floral motifs and fine border work",
+        "slug":  "red-gotta-patti-chunri-royal",
+        "price":  3399,
+        "wholesale":  2379,
+        "photo":  "uploads/products/Gotta Patti Chunri (21).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Bandhani Chunri - Scalloped Silver Border",
+        "desc":  "A vibrant red bandhani chunri featuring a beautiful silver gota patti border with a scalloped edge and delicate floral designs. The main fabric has a classic dotted pattern with an elegant central motif.",
+        "slug":  "red-bandhani-chunri-scalloped-silver-border",
+        "price":  2650,
+        "wholesale":  1855,
+        "photo":  "uploads/products/Gotta Patti Chunri (22).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Bandhani Chunri - Silver Floral and Paisley",
+        "desc":  "A traditional red chunri with a series of wavy and intricate bandhani patterns across the body. The chunri is finished with a striking silver gotta patti border featuring paisley and floral designs.",
+        "slug":  "red-bandhani-chunri-silver-floral-paisley",
+        "price":  2800,
+        "wholesale":  1960,
+        "photo":  "uploads/products/Gotta Patti Chunri (23).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Deep Red Chunri - Sun Motif and Silver Border",
+        "desc":  "A stunning chunri in a deep red shade, showcasing a detailed bandhani tie-and-dye pattern with large, bright sun-like motifs. It is embellished with a decorative silver gotta patti border.",
+        "slug":  "deep-red-chunri-sun-motif-silver-border",
+        "price":  3450,
+        "wholesale":  2415,
+        "photo":  "uploads/products/Gotta Patti Chunri (24).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red and Orange Chunri - Wavy Silver Gota Work",
+        "desc":  "An elegant chunri in red and orange with intricate wavy and paisley patterns in silver gotta patti. The border is finished with a detailed floral motif design, perfect for festive wear.",
+        "slug":  "red-orange-chunri-wavy-silver-gota",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Gotta Patti Chunri (25).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Pinkish-Red Bandhani Chunri - Sunburst Gota Patti",
+        "desc":  "A vibrant chunri in a beautiful mix of pink and red. This piece features a traditional dotted bandhani pattern with large, eye-catching sunburst motifs and a silver gotta patti border.",
+        "slug":  "pinkish-red-bandhani-chunri-sunburst-gota-patti",
+        "price":  3500,
+        "wholesale":  2450,
+        "photo":  "uploads/products/Gotta Patti Chunri (26).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Chunri - Detailed Silver Gota Patti Border",
+        "desc":  "A classic red bandhani chunri that is heavily adorned with intricate silver gotta patti work. The detailed border features a scalloped edge and elaborate floral designs, adding a rich look to the piece.",
+        "slug":  "red-chunri-detailed-silver-gota-patti-border",
+        "price":  4000,
+        "wholesale":  2800,
+        "photo":  "uploads/products/Gotta Patti Chunri (27).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red and Orange Chunri - Large Floral Motifs",
+        "desc":  "This chunri combines a traditional red and orange bandhani pattern with large floral motifs scattered across the fabric. The border is a wide, intricate silver gotta patti design, creating a bold and beautiful statement.",
+        "slug":  "red-orange-chunri-large-floral-motifs",
+        "price":  3300,
+        "wholesale":  2310,
+        "photo":  "uploads/products/Gotta Patti Chunri (28).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Bandhani Chunri - Diamond and Circular Motifs",
+        "desc":  "A traditional red bandhani chunri featuring a large diamond-shaped motif and several concentric circular patterns. The border is heavily embellished with silver gotta patti in a floral design, adding elegance to the piece.",
+        "slug":  "red-bandhani-chunri-diamond-circular-motifs",
+        "price":  2600,
+        "wholesale":  1820,
+        "photo":  "uploads/products/Gotta Patti Chunri (29).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Bandhani Chunri - Golden Wavy Gota Work",
+        "desc":  "A rich red chunri with a traditional dotted bandhani pattern and a luxurious gold gotta patti border. The intricate design features wavy and circular patterns, giving it a classic and festive appeal.",
+        "slug":  "red-bandhani-chunri-golden-wavy-gota",
+        "price":  3700,
+        "wholesale":  2590,
+        "photo":  "uploads/products/Gotta Patti Chunri (30).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Chunri - Silver and Gold Gota Patti Border",
+        "desc":  "A beautiful red chunri with a traditional bandhani pattern. It is uniquely embellished with both silver and gold gotta patti work, creating a dual-toned, rich border effect with wavy and paisley motifs.",
+        "slug":  "red-chunri-silver-gold-gota-patti-border",
+        "price":  3300,
+        "wholesale":  2310,
+        "photo":  "uploads/products/Gotta Patti Chunri (31).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Dark Red Chunri - Orange Sun Motifs",
+        "desc":  "A dark red chunri with a beautiful bandhani pattern. It is decorated with large, vibrant orange sun-like motifs and a detailed silver gota patti border, giving it a rich and festive appearance.",
+        "slug":  "dark-red-chunri-orange-sun-motifs",
+        "price":  2800,
+        "wholesale":  1960,
+        "photo":  "uploads/products/Gotta Patti Chunri (32).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Gold Gota Patti and Paisley",
+        "desc":  "A stunning maroon chunri with a traditional bandhani pattern. The entire piece is richly adorned with intricate gold gota patti work, featuring elegant paisley and floral designs, perfect for weddings and special events.",
+        "slug":  "maroon-chunri-gold-gota-patti-paisley",
+        "price":  4600,
+        "wholesale":  3220,
+        "photo":  "uploads/products/Gotta Patti Chunri (33).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Silver and Gold Gota Patti",
+        "desc":  "A stunning maroon chunri with a traditional bandhani pattern. The entire piece is richly adorned with intricate silver and gold gota patti work, featuring elegant paisley and floral designs, perfect for special events.",
+        "slug":  "maroon-chunri-silver-gold-gota-patti",
+        "price":  3250,
+        "wholesale":  2275,
+        "photo":  "uploads/products/Gotta Patti Chunri (34).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Wavy Silver Gota Patti",
+        "desc":  "This maroon chunri features a traditional bandhani pattern with wavy and circular designs. The wide silver gota patti border, adorned with a floral and leaf pattern, adds a touch of sophistication.",
+        "slug":  "maroon-chunri-wavy-silver-gota-patti",
+        "price":  4850,
+        "wholesale":  3395,
+        "photo":  "uploads/products/Gotta Patti Chunri (35).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Dark Red Chunri - Large Sun Motifs",
+        "desc":  "A dark red chunri with a traditional bandhani pattern. It is decorated with large, vibrant orange and silver sun-like motifs and a detailed silver gota patti border, giving it a rich and festive appearance.",
+        "slug":  "dark-red-chunri-large-sun-motifs",
+        "price":  4300,
+        "wholesale":  3010,
+        "photo":  "uploads/products/Gotta Patti Chunri (36).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Leafy Silver Gota Patti",
+        "desc":  "This elegant maroon chunri features a subtle bandhani pattern and is bordered with intricate silver gota patti work. The border showcases a beautiful leafy and floral design, perfect for adding a touch of grace to any outfit.",
+        "slug":  "maroon-chunri-leafy-silver-gota-patti",
+        "price":  4900,
+        "wholesale":  3430,
+        "photo":  "uploads/products/Gotta Patti Chunri (37).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red and Orange Chunri - Circular Gota Patti",
+        "desc":  "A folded red and orange chunri with intricate bandhani patterns in concentric circles and diamonds. The piece is bordered with a detailed silver gota patti design featuring floral motifs.",
+        "slug":  "red-orange-chunri-circular-gota-patti",
+        "price":  2800,
+        "wholesale":  1960,
+        "photo":  "uploads/products/Gotta Patti Chunri (38).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Bandhani Chunri - Floral Sun Motifs",
+        "desc":  "This maroon chunri features a traditional dotted bandhani pattern with large, eye-catching floral-sun motifs. The border is finished with intricate silver gotta patti work, perfect for any festive occasion.",
+        "slug":  "maroon-bandhani-chunri-floral-sun-motifs",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Gotta Patti Chunri (39).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Silver Floral and Paisley",
+        "desc":  "A traditional maroon chunri with a series of wavy and intricate bandhani patterns across the body. The chunri is finished with a striking silver gota patti border featuring paisley and floral designs.",
+        "slug":  "maroon-chunri-silver-floral-paisley",
+        "price":  2850,
+        "wholesale":  1995,
+        "photo":  "uploads/products/Gotta Patti Chunri (40).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Leafy Border with Silver Gota Patti",
+        "desc":  "This maroon chunri features an elegant bandhani pattern with scattered floral motifs. The border is a highlight, with intricate silver gota patti work showcasing a beautiful leafy and floral design.",
+        "slug":  "maroon-chunri-leafy-border-silver-gota-patti",
+        "price":  4500,
+        "wholesale":  3150,
+        "photo":  "uploads/products/Gotta Patti Chunri (41).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Folded Red Chunri - Gota Patti Sun and Floral",
+        "desc":  "A folded red chunri showcasing a beautiful central sun motif and other floral designs in silver gota patti. The entire piece is bordered with intricate silver gota patti work, highlighting its craftsmanship.",
+        "slug":  "folded-red-chunri-gota-patti-sun-floral",
+        "price":  2900,
+        "wholesale":  2030,
+        "photo":  "uploads/products/Gotta Patti Chunri (42).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Silk Chunri - Gold Gota Patti and Checkered Pattern",
+        "desc":  "A luxurious red silk chunri with a lustrous finish. The chunri features a unique checkered bandhani pattern and is bordered with a rich gold gota patti design, perfect for an opulent and traditional look.",
+        "slug":  "red-silk-chunri-gold-gota-patti-checkered",
+        "price":  3500,
+        "wholesale":  2450,
+        "photo":  "uploads/products/Gotta Patti Chunri (43).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Pink and Silver Paisley",
+        "desc":  "A maroon chunri with a traditional bandhani pattern and a detailed silver gota patti border. The border features a beautiful paisley design with subtle pink accents, adding a unique touch of color.",
+        "slug":  "maroon-chunri-pink-silver-paisley",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Gotta Patti Chunri (44).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Chunri - Intricate Golden Gota Patti",
+        "desc":  "A stunning red chunri with a grid-like pattern of golden gota patti. The border is heavily embellished with intricate golden embroidery and mirror work, giving the piece a rich and luxurious feel.",
+        "slug":  "red-chunri-intricate-golden-gota-patti",
+        "price":  2800,
+        "wholesale":  1960,
+        "photo":  "uploads/products/Gotta Patti Chunri (45).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Leafy and Floral Gota Patti",
+        "desc":  "This elegant maroon chunri features a subtle bandhani pattern and is bordered with intricate silver gota patti work. The border showcases a beautiful leafy and floral design with small, scattered motifs.",
+        "slug":  "maroon-chunri-leafy-floral-gota-patti",
+        "price":  3700,
+        "wholesale":  2590,
+        "photo":  "uploads/products/Gotta Patti Chunri (46).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Chunri - Large Circular Gota Patti Motif",
+        "desc":  "A striking red chunri featuring a very large, intricate circular motif made of silver gota patti. The rest of the chunri has a classic bandhani pattern and a beautiful floral silver gota patti border.",
+        "slug":  "red-chunri-large-circular-gota-patti-motif",
+        "price":  3100,
+        "wholesale":  2170,
+        "photo":  "uploads/products/Gotta Patti Chunri (47).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red and Orange Bandhani Chunri - Sunbursts",
+        "desc":  "A vibrant chunri in red and orange, showcasing a traditional dotted bandhani pattern with large, bright sunburst motifs. It is finished with a decorative silver and gold gota patti border, perfect for festive occasions.",
+        "slug":  "red-orange-bandhani-chunri-sunbursts",
+        "price":  4900,
+        "wholesale":  3430,
+        "photo":  "uploads/products/Gotta Patti Chunri (48).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Maroon Chunri - Orange Sun Motifs with Silver Gota",
+        "desc":  "A maroon chunri featuring a traditional bandhani dotted pattern and large orange sun-like motifs. It is finished with a wide and intricate silver gotta patti border, perfect for adding a touch of traditional elegance to any outfit.",
+        "slug":  "maroon-chunri-orange-sun-motifs-silver-gota",
+        "price":  3100,
+        "wholesale":  2170,
+        "photo":  "uploads/products/Gotta Patti Chunri (49).jpg"
+    },
+    {
+        "catId":  "3",
+        "name":  "Red Chunri - Golden Gota with Sunbursts",
+        "desc":  "A luxurious red chunri with a smooth finish. This piece is a modern take on traditional design, featuring multiple lines of golden gota work with scattered sunburst motifs. The wide golden border adds to its grandeur.",
+        "slug":  "red-chunri-golden-gota-sunbursts",
+        "price":  2500,
+        "wholesale":  1750,
+        "photo":  "uploads/products/Gotta Patti Chunri (50).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Crimson Red Pittan Work Saree",
+        "desc":  "A striking crimson red saree with classic Pittan work, making it an ideal choice for celebrations and traditional events.",
+        "slug":  "crimson-red-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (1).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Pink Pittan Work Saree",
+        "desc":  "Embrace a vibrant look with this beautiful pink saree, highlighted by exquisite Pittan work. The striking color combined with the detailed craftsmanship on the border and pallu offers a festive and celebratory feel.",
+        "slug":  "pink-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (2).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Mauve Pittan Work Saree",
+        "desc":  "A stunning Mauve saree adorned with delicate Pittan work. The soft color and shimmering gold embroidery create a regal look, ideal for evening events and formal gatherings where you want to make a sophisticated statement.",
+        "slug":  "mauve-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (3).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Green Pittan Work Saree",
+        "desc":  "This elegant green saree features intricate Pittan work, a traditional Rajasthani embroidery technique. The rich detailing on the border and scattered motifs on the body make it perfect for weddings, festivals, and other special occasions.",
+        "slug":  "green-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (4).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Magenta Pittan Work Saree",
+        "desc":  "A gorgeous magenta saree with intricate Pittan work, making it a bold and beautiful statement piece for any celebration.",
+        "slug":  "magenta-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (5).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Plum Purple Pittan Work Saree",
+        "desc":  "A royal plum purple saree featuring exquisite Pittan work along the borders, offering a sophisticated and elegant look.",
+        "slug":  "plum-purple-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (6).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Fuchsia Pink Pittan Work Saree",
+        "desc":  "A vibrant fuchsia saree adorned with detailed Pittan work on the borders and small motifs across the body, perfect for festive occasions.",
+        "slug":  "fuchsia-pink-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (7).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Mustard Yellow Pittan Work Saree",
+        "desc":  "A vibrant mustard yellow saree with contrasting silver Pittan work on the border and motifs, offering a bright and cheerful look.",
+        "slug":  "mustard-yellow-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (8).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Dusty Rose Pittan Work Saree",
+        "desc":  "This elegant saree in a dusty rose shade features a delicate self-woven floral pattern and a scalloped border with intricate Pittan work.",
+        "slug":  "dusty-rose-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (9).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Dusty Rose Pittan Work Saree",
+        "desc":  "This elegant saree features a self-woven floral pattern and a scalloped border with intricate Pittan work, creating a sophisticated and luxurious look.",
+        "slug":  "dusty-rose-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (10).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Violet Crushed Pittan Work Saree",
+        "desc":  "This unique violet saree features a crushed fabric texture with delicate gold Pittan motifs and a scalloped border, perfect for a contemporary festive style.",
+        "slug":  "violet-crushed-pittan-work-saree",
+        "price":  3350,
+        "wholesale":  2345,
+        "photo":  "uploads/products/Pittan work (11).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Aqua Blue Pittan Work Saree",
+        "desc":  "This soothing aqua blue saree features a subtle self-woven pattern and is beautifully embellished with detailed Pittan work on the borders, perfect for a chic and elegant event.",
+        "slug":  "aqua-blue-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (12).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Mint Green Pittan Work Saree",
+        "desc":  "This serene mint green saree features a subtle self-woven pattern with shimmering Pittan work on the borders, creating a graceful and light festive outfit.",
+        "slug":  "mint-green-pittan-work-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (13).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Dusty Rose Pittan Saree with Floral Pattern",
+        "desc":  "This luxurious dusty rose saree combines a self-woven floral pattern with a beautiful scalloped border, meticulously handcrafted with Pittan work and small bead detailing.",
+        "slug":  "dusty-rose-pittan-saree-floral-pattern",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (14).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Mustard Yellow Pittan Saree with Scalloped Border",
+        "desc":  "A vibrant mustard yellow saree featuring an intricately designed scalloped border with shimmering silver and pink Pittan work, perfect for adding a pop of color to any festive look.",
+        "slug":  "mustard-yellow-pittan-saree-scalloped-border",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (15).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Forest Green Pittan Saree with Scalloped Border",
+        "desc":  "A rich forest green saree with a classic look, highlighted by a detailed scalloped border featuring a blend of silver and pink Pittan work and fine embroidery.",
+        "slug":  "forest-green-pittan-saree-scalloped-border",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Pittan work (16).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Off-White Crushed Saree with Pittan Motifs",
+        "desc":  "An elegant off-white saree with a stylish crushed texture, beautifully embellished with scattered golden Pittan motifs and a matching scalloped border for a sophisticated appearance.",
+        "slug":  "off-white-crushed-saree-pittan-motifs",
+        "price":  3350,
+        "wholesale":  2345,
+        "photo":  "uploads/products/Pittan work (17).jpg"
+    },
+    {
+        "catId":  "4",
+        "name":  "Dusty Blue Crushed Saree with Pittan Motifs",
+        "desc":  "This elegant saree in a beautiful dusty blue shade features a crushed texture and is adorned with delicate Pittan motifs scattered across the body, finished with a simple scalloped border.",
+        "slug":  "dusty-blue-crushed-saree-pittan-motifs",
+        "price":  3350,
+        "wholesale":  2345,
+        "photo":  "uploads/products/Pittan work (18).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Navy Blue Paisley Printed Saree",
+        "desc":  "A comfortable and stylish printed saree featuring a striking navy blue base with intricate red and white paisley and geometric patterns, ideal for daily wear or casual events.",
+        "slug":  "navy-blue-paisley-printed-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Printed (1).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Paisley Printed Saree",
+        "desc":  "A comfortable and stylish printed saree featuring a rich purple base with intricate pink and white paisley and geometric patterns, ideal for daily wear or casual events.",
+        "slug":  "purple-paisley-printed-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Printed (2).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Paisley Printed Saree",
+        "desc":  "A comfortable and stylish printed saree featuring a vibrant red base with intricate black and white paisley and geometric patterns, ideal for daily wear or casual events.",
+        "slug":  "red-paisley-printed-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Printed (3).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Navy Blue Paisley Printed Saree",
+        "desc":  "A comfortable and stylish printed saree featuring a striking navy blue base with intricate red and white paisley and geometric patterns, ideal for daily wear or casual events.",
+        "slug":  "navy-blue-paisley-printed-saree",
+        "price":  3750,
+        "wholesale":  2625,
+        "photo":  "uploads/products/Printed (4).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Floral Motif Printed Saree",
+        "desc":  "A rich pink saree with a delicate all-over floral motif and a heavy, ornate border, perfect for weddings and formal gatherings.",
+        "slug":  "pink-floral-motif-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (5).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Magenta Elephant and Geometric Printed Saree",
+        "desc":  "A stunning magenta saree with a detailed elephant and geometric pattern on the pallu and body, perfect for special occasions and festive wear.",
+        "slug":  "magenta-elephant-geometric-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (6).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Floral Bandhani Printed Saree",
+        "desc":  "A purple saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "purple-floral-bandhani-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (7).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Geometric Floral Printed Saree",
+        "desc":  "A vibrant red saree with a detailed geometric and floral print, featuring a striking floral border, ideal for festive events and celebrations.",
+        "slug":  "red-geometric-floral-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (8).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Geometric Floral Printed Saree",
+        "desc":  "A vibrant pink saree with a detailed geometric and floral print, featuring a striking floral border, ideal for festive events and celebrations.",
+        "slug":  "pink-geometric-floral-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (9).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Floral Motif Printed Saree",
+        "desc":  "A rich purple saree with a delicate all-over floral motif and a heavy, ornate border, perfect for weddings and formal gatherings.",
+        "slug":  "purple-floral-motif-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (10).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Elephant and Geometric Printed Saree",
+        "desc":  "A stunning purple saree with a detailed elephant and geometric pattern on the pallu and body, perfect for special occasions and festive wear.",
+        "slug":  "purple-elephant-geometric-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (11).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Geometric Floral Printed Saree",
+        "desc":  "A vibrant purple saree with a detailed geometric and floral print, featuring a striking floral border, ideal for festive events and celebrations.",
+        "slug":  "purple-geometric-floral-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (12).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Magenta Floral Bandhani Printed Saree",
+        "desc":  "A magenta saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "magenta-floral-bandhani-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (13).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Floral Bandhani Printed Saree",
+        "desc":  "A pink saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "pink-floral-bandhani-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (14).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Elephant and Geometric Printed Saree",
+        "desc":  "A stunning pink saree with a detailed elephant and geometric pattern on the pallu and body, perfect for special occasions and festive wear.",
+        "slug":  "pink-elephant-geometric-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (15).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Yellow Elephant and Geometric Printed Saree",
+        "desc":  "A stunning yellow saree with a detailed elephant and geometric pattern on the pallu and body, perfect for special occasions and festive wear.",
+        "slug":  "yellow-elephant-geometric-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (16).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Floral Motif Printed Saree",
+        "desc":  "A vibrant pink saree featuring large, intricate floral motifs, perfect for a chic and traditional look.",
+        "slug":  "pink-floral-motif-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (17).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Dark Purple Elephant and Geometric Printed Saree",
+        "desc":  "A stunning dark purple saree with a detailed elephant and geometric pattern on the pallu and body, perfect for special occasions and festive wear.",
+        "slug":  "dark-purple-elephant-geometric-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (18).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Floral Bandhani Printed Saree",
+        "desc":  "A purple saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "purple-floral-bandhani-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (19).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Elephant and Geometric Saree",
+        "desc":  "A stunning red saree with a detailed elephant and geometric pattern on the pallu and body, perfect for special occasions and festive wear.",
+        "slug":  "red-elephant-and-geometric-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (20).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Magenta Floral Bandhani Saree",
+        "desc":  "A magenta saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "magenta-floral-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (21).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Floral Motif Saree",
+        "desc":  "A rich purple saree with a delicate all-over floral motif and a heavy, ornate border, perfect for weddings and formal gatherings.",
+        "slug":  "purple-floral-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (22).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Floral Motif Saree",
+        "desc":  "A rich pink saree with a delicate all-over floral motif and a heavy, ornate border, perfect for weddings and formal gatherings.",
+        "slug":  "pink-floral-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (23).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Geometric and Floral Saree",
+        "desc":  "A vibrant pink saree with a detailed geometric and floral print, featuring a striking floral border, ideal for festive events and celebrations.",
+        "slug":  "pink-geometric-and-floral-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (24).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Geometric and Floral Saree",
+        "desc":  "A vibrant red saree with a detailed geometric and floral print, featuring a striking floral border, ideal for festive events and celebrations.",
+        "slug":  "red-geometric-and-floral-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (25).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Dark Purple Floral Bandhani Saree",
+        "desc":  "A dark purple saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "dark-purple-floral-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (26).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Maroon Floral Motif Saree",
+        "desc":  "A rich maroon saree with a delicate all-over floral motif and a heavy, ornate border, perfect for weddings and formal gatherings.",
+        "slug":  "maroon-floral-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (27).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Yellow Geometric and Floral Saree",
+        "desc":  "A vibrant yellow saree with a detailed geometric and floral print, featuring a striking floral border, ideal for festive events and celebrations.",
+        "slug":  "yellow-geometric-and-floral-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (28).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Floral Motif Saree",
+        "desc":  "A rich red saree with a delicate all-over floral motif and a heavy, ornate border, perfect for weddings and formal gatherings.",
+        "slug":  "red-floral-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (29).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Geometric Printed Saree",
+        "desc":  "A rich red saree with a geometric bandhani print and a heavy, ornate circle pattern on the pallu, perfect for weddings and formal gatherings.",
+        "slug":  "red-geometric-printed-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (30).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Floral Bandhani Saree",
+        "desc":  "A red saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "red-floral-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (31).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Geometric and Floral Saree",
+        "desc":  "A vibrant purple saree with a detailed geometric and floral print, featuring a striking floral border, ideal for festive events and celebrations.",
+        "slug":  "purple-geometric-and-floral-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (32).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Magenta Floral Bandhani Saree",
+        "desc":  "A magenta saree with a traditional floral bandhani print, featuring a detailed border and a unique floral design on the pallu, suitable for traditional events.",
+        "slug":  "magenta-floral-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (33).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Orange Elephant and Circle Print Saree",
+        "desc":  "A stunning orange saree with a detailed elephant and geometric pattern on the pallu and an intricate circle design on the body, perfect for special occasions.",
+        "slug":  "orange-elephant-and-circle-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (34).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Yellow Elephant and Geometric Print Saree",
+        "desc":  "A stunning yellow saree with a detailed elephant and geometric pattern on the pallu and an intricate circle design on the body, perfect for special occasions.",
+        "slug":  "yellow-elephant-and-geometric-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (35).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Bird and Geometric Print Saree",
+        "desc":  "A vibrant red saree featuring a unique checked and bird pattern on the pallu and a delicate geometric print on the body, perfect for special occasions.",
+        "slug":  "red-bird-and-geometric-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (36).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Geometric and Striped Saree",
+        "desc":  "A rich purple saree featuring a bold geometric and striped design on the pallu and an intricate check pattern on the body, perfect for a traditional and stylish look.",
+        "slug":  "purple-geometric-and-striped-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (37).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Pink Geometric Bandhani Saree",
+        "desc":  "A stunning pink saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "pink-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (38).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Geometric Bandhani Saree",
+        "desc":  "A stunning purple saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "purple-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (39).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Orange Geometric Bandhani Saree",
+        "desc":  "A stunning orange saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "orange-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (40).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Elephant and Geometric Print Saree",
+        "desc":  "A stunning purple saree with a detailed elephant and geometric pattern on the pallu and an intricate circle design on the body, perfect for special occasions.",
+        "slug":  "purple-elephant-and-geometric-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (41).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Geometric Bandhani Saree",
+        "desc":  "A stunning red saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "red-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (42).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Wedding Motif Saree",
+        "desc":  "A traditional red saree with intricate wedding motifs and a detailed geometric print, featuring a heavy golden border, ideal for bridal wear.",
+        "slug":  "red-wedding-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (43).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Yellow Bird and Geometric Print Saree",
+        "desc":  "A vibrant yellow saree featuring a unique checked and bird pattern on the pallu and a delicate geometric print on the body, perfect for special occasions.",
+        "slug":  "yellow-bird-and-geometric-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (44).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Red Elephant and Circle Print Saree",
+        "desc":  "A stunning red saree with a detailed elephant and geometric pattern on the pallu and an intricate circle design on the body, perfect for special occasions.",
+        "slug":  "red-elephant-and-circle-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (45).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Lavender Wedding Motif Saree",
+        "desc":  "A traditional lavender saree with intricate wedding motifs and a detailed geometric print, featuring a heavy golden border, ideal for bridal wear.",
+        "slug":  "lavender-wedding-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (46).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Green Geometric Bandhani Saree",
+        "desc":  "A stunning green saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "green-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (47).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Maroon Bird and Geometric Print Saree",
+        "desc":  "A vibrant maroon saree featuring a unique checked and bird pattern on the pallu and a delicate geometric print on the body, perfect for special occasions.",
+        "slug":  "maroon-bird-and-geometric-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (48).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Bird and Geometric Print Saree",
+        "desc":  "A vibrant purple saree featuring a unique checked and bird pattern on the pallu and a delicate geometric print on the body, perfect for special occasions.",
+        "slug":  "purple-bird-and-geometric-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (49).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Green Geometric Bandhani Saree",
+        "desc":  "A stunning green saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "green-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (50).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Maroon Bird and Geometric Print Saree",
+        "desc":  "A vibrant maroon saree featuring a unique checked and bird pattern on the pallu and a delicate geometric print on the body, perfect for special occasions.",
+        "slug":  "maroon-bird-and-geometric-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (51).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Elephant and Circle Print Saree",
+        "desc":  "A stunning purple saree with a detailed elephant and geometric pattern on the pallu and an intricate circle design on the body, perfect for special occasions.",
+        "slug":  "purple-elephant-and-circle-print-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (52).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Dark Purple Geometric Bandhani Saree",
+        "desc":  "A stunning dark purple saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "dark-purple-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (53).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Purple Wedding Motif Saree",
+        "desc":  "A traditional purple saree with intricate wedding motifs and a detailed geometric print, featuring a heavy golden border, ideal for bridal wear.",
+        "slug":  "purple-wedding-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (54).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Yellow Geometric Bandhani Saree",
+        "desc":  "A stunning yellow saree with a geometric bandhani print and a heavy, ornate circle and mirror work border, perfect for weddings and formal gatherings.",
+        "slug":  "yellow-geometric-bandhani-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (55).jpg"
+    },
+    {
+        "catId":  "5",
+        "name":  "Lavender Wedding Motif Saree",
+        "desc":  "A traditional lavender saree with intricate wedding motifs and a detailed geometric print, featuring a heavy golden border, ideal for bridal wear.",
+        "slug":  "lavender-wedding-motif-saree",
+        "price":  3050,
+        "wholesale":  2135,
+        "photo":  "uploads/products/Printed (56).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning saree featuring intricate Gota Patti work on a silk fabric. The saree has a beautiful border with floral motifs and a delicate single flower on the pallu.",
+        "slug":  "pyor-gotta-patti-saree",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (1).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning magenta saree featuring intricate Gota Patti work on a silk fabric. The saree has a beautiful border with a zigzag pattern and scattered star motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (2).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning rust-colored saree with fine silver Gota Patti work. The saree has a unique geometric and floral border and delicate scattered motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-rust",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (3).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning dusty rose saree featuring intricate Gota Patti work on a pure silk fabric. The saree has a beautiful border with floral and leaf motifs and delicate leaf motifs scattered on the body.",
+        "slug":  "pyor-gotta-patti-saree-dusty-rose",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (4).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A gorgeous pink saree with golden Gota Patti work. The border features a beautiful floral pattern, complemented by small floral motifs scattered across the fabric.",
+        "slug":  "pyor-gotta-patti-saree-pink",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (5).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant dark green saree with Gota Patti work. The border showcases a delicate floral design, and the body is adorned with small scattered star motifs.",
+        "slug":  "pyor-gotta-patti-saree-dark-green",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (6).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A lovely olive green saree with intricate Gota Patti work. The saree has a classic floral and zigzag border, with tiny star motifs scattered on the body.",
+        "slug":  "pyor-gotta-patti-saree-olive-green",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (7).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful purple saree with fine Gota Patti work. The saree features a border with zigzag and floral patterns, with small star motifs scattered throughout the fabric.",
+        "slug":  "pyor-gotta-patti-saree-purple",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (8).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning red saree with classic Gota Patti work. The saree features a zigzag and floral patterned border and is decorated with small, scattered star motifs.",
+        "slug":  "pyor-gotta-patti-saree-red",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (9).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A radiant fuchsia saree featuring delicate Gota Patti work on pure silk. The border has a mix of zigzag and floral patterns, with small flower motifs scattered across the body.",
+        "slug":  "pyor-gotta-patti-saree-fuchsia",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (10).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A striking magenta saree adorned with intricate silver Gota Patti work. The border showcases a charming combination of floral and zigzag designs, with small floral motifs scattered on the body.",
+        "slug":  "pyor-gotta-patti-saree-magenta",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (11).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant purple saree with fine golden Gota Patti work. The border features a zigzag and floral pattern, with delicate leaf motifs scattered throughout the fabric.",
+        "slug":  "pyor-gotta-patti-saree-purple-2",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (12).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A gorgeous blue-green saree with heavy Gota Patti work. The border is designed with large spiral and zigzag patterns, with small floral motifs scattered on the brocade fabric.",
+        "slug":  "pyor-gotta-patti-saree-blue-green-brocade",
+        "price":  3800,
+        "wholesale":  2660,
+        "photo":  "uploads/products/Pyor Gotta Patti (13).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A sophisticated beige saree with Gota Patti work on a brocade pattern. The saree has a stunning border with floral and zigzag motifs, with scattered floral designs on the body.",
+        "slug":  "pyor-gotta-patti-saree-beige-brocade",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (14).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful pista green saree with intricate Gota Patti work on a brocade pattern. The border features a zigzag pattern with floral motifs, with scattered star motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-pista-green-brocade",
+        "price":  2950,
+        "wholesale":  2065,
+        "photo":  "uploads/products/Pyor Gotta Patti (15).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning pista green saree with Gota Patti work on a brocade pattern. The saree has a bold Gota Patti border with unique floral motifs and scattered leaf designs on the body.",
+        "slug":  "pyor-gotta-patti-saree-pista-green",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (16).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant pink saree with intricate Gota Patti work on a brocade pattern. The saree features a detailed floral and zigzag border with beautiful square floral patterns and scattered motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-pink-brocade",
+        "price":  3500,
+        "wholesale":  2450,
+        "photo":  "uploads/products/Pyor Gotta Patti (17).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A sophisticated dusty grey saree featuring intricate Gota Patti work on a brocade pattern. The border has a scalloped floral design, with small floral motifs scattered throughout the fabric.",
+        "slug":  "pyor-gotta-patti-saree-dusty-grey",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (18).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful pista green saree featuring intricate Gota Patti work on a brocade pattern. The border is a unique zigzag and floral design, with delicate motifs scattered on the body.",
+        "slug":  "pyor-gotta-patti-saree-pista-green-2",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (19).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A graceful dusty pink saree with fine Gota Patti work on a brocade pattern. The border showcases an elegant scroll and floral design with scattered small motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-dusty-pink",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (20).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A luxurious wine-colored saree with rich Gota Patti work. The border features a bold scalloped design with leaf motifs, and the body has a delicate star motif.",
+        "slug":  "pyor-gotta-patti-saree-wine",
+        "price":  3950,
+        "wholesale":  2765,
+        "photo":  "uploads/products/Pyor Gotta Patti (21).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful deep plum saree featuring intricate Gota Patti work and pearl detailing. The border has a detailed leaf pattern with a bold floral motif on the body.",
+        "slug":  "pyor-gotta-patti-saree-deep-plum",
+        "price":  3950,
+        "wholesale":  2765,
+        "photo":  "uploads/products/Pyor Gotta Patti (22).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A rich maroon saree with a combination of golden and silver Gota Patti work. The border features a detailed floral pattern, with bold floral motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-maroon-gota-patti",
+        "price":  4000,
+        "wholesale":  2800,
+        "photo":  "uploads/products/Pyor Gotta Patti (23).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A striking deep maroon saree with dense golden Gota Patti work. The saree features a heavy border with floral motifs and a single large floral motif on the pallu.",
+        "slug":  "pyor-gotta-patti-saree-deep-maroon",
+        "price":  3950,
+        "wholesale":  2765,
+        "photo":  "uploads/products/Pyor Gotta Patti (24).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant plum saree with detailed Gota Patti work. The border is a bold and dense floral pattern, with a large circular floral motif on the pallu.",
+        "slug":  "pyor-gotta-patti-saree-plum-floral",
+        "price":  3600,
+        "wholesale":  2520,
+        "photo":  "uploads/products/Pyor Gotta Patti (25).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning brown saree featuring intricate Gota Patti work. The border combines geometric and floral patterns, with a detailed floral design on the pallu and scattered motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-brown-floral",
+        "price":  3800,
+        "wholesale":  2660,
+        "photo":  "uploads/products/Pyor Gotta Patti (26).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful mauve saree featuring intricate Gota Patti work. The border showcases a detailed peacock and floral design, with a single leaf motif on the body.",
+        "slug":  "pyor-gotta-patti-saree-mauve",
+        "price":  3800,
+        "wholesale":  2660,
+        "photo":  "uploads/products/Pyor Gotta Patti (27).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A luxurious deep green saree with Gota Patti and stone work. The border has a detailed leaf pattern with a bold floral motif and a center stone on the body.",
+        "slug":  "pyor-gotta-patti-saree-deep-green",
+        "price":  3400,
+        "wholesale":  2380,
+        "photo":  "uploads/products/Pyor Gotta Patti (28).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A deep purple saree with intricate Gota Patti work and sequin details. The border features a geometric pattern, with a delicate floral motif on the body.",
+        "slug":  "pyor-gotta-patti-saree-deep-purple",
+        "price":  3600,
+        "wholesale":  2520,
+        "photo":  "uploads/products/Pyor Gotta Patti (29).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant magenta saree with a classic Gota Patti border. The saree is adorned with intricate floral and leaf motifs and has a large circular floral motif on the body.",
+        "slug":  "pyor-gotta-patti-saree-magenta-2",
+        "price":  3600,
+        "wholesale":  2520,
+        "photo":  "uploads/products/Pyor Gotta Patti (30).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A festive red saree with intricate Gota Patti work. The border features a scalloped leaf pattern, and the body has a large circular motif with delicate flowers and connecting lines.",
+        "slug":  "pyor-gotta-patti-saree-red-2",
+        "price":  3400,
+        "wholesale":  2380,
+        "photo":  "uploads/products/Pyor Gotta Patti (31).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A rich plum saree with heavy Gota Patti work. The scalloped border features bold leaf motifs with a stunning star motif on the body of the saree.",
+        "slug":  "pyor-gotta-patti-saree-plum",
+        "price":  3800,
+        "wholesale":  2660,
+        "photo":  "uploads/products/Pyor Gotta Patti (32).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A vibrant yellow saree with heavy silver Gota Patti work. The border features a dense floral and geometric pattern, with scattered leaf and floral motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-yellow",
+        "price":  3600,
+        "wholesale":  2520,
+        "photo":  "uploads/products/Pyor Gotta Patti (33).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning white saree with elaborate Gota Patti and mirror work. The border features a dense floral design with intricate patterns on the pallu and a contrasting red piping.",
+        "slug":  "pyor-gotta-patti-saree-white",
+        "price":  3700,
+        "wholesale":  2590,
+        "photo":  "uploads/products/Pyor Gotta Patti (34).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful dark green saree with delicate Gota Patti work. The saree has a stunning border with floral motifs and is decorated with small scattered flowers on the body.",
+        "slug":  "pyor-gotta-patti-saree-dark-green-2",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (35).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A charming pink saree with golden Gota Patti work. The saree features a border with zigzag and floral motifs and is decorated with small scattered floral motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-pink-2",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (36).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A lovely rose pink saree with Gota Patti work. The border features a zigzag and floral design with small floral motifs scattered throughout the fabric.",
+        "slug":  "pyor-gotta-patti-saree-rose-pink",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (37).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A graceful mauve saree with golden Gota Patti work. The border showcases a zigzag and floral design, with small floral motifs scattered on the body.",
+        "slug":  "pyor-gotta-patti-saree-mauve-2",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (38).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A gorgeous magenta saree with golden Gota Patti work. The border features a detailed floral and zigzag pattern, with small scattered motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-magenta-3",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (39).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful pista green saree with Gota Patti work. The border features a zigzag pattern with floral motifs and is decorated with small scattered flowers on the body.",
+        "slug":  "pyor-gotta-patti-saree-pista-green-3",
+        "price":  3150,
+        "wholesale":  2205,
+        "photo":  "uploads/products/Pyor Gotta Patti (40).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A classic red saree with a heavy Gota Patti border. The border features a dense floral pattern with leaf motifs and a detailed floral design on the body of the saree.",
+        "slug":  "pyor-gotta-patti-saree-red-3",
+        "price":  3400,
+        "wholesale":  2380,
+        "photo":  "uploads/products/Pyor Gotta Patti (41).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning olive-green saree with intricate Gota Patti work. The saree features a border with elegant circular and floral motifs and delicate leaf designs on the body.",
+        "slug":  "pyor-gotta-patti-saree-olive-green-2",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Pyor Gotta Patti (42).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful pista green saree with silver Gota Patti work. The border showcases a detailed pattern of circular floral motifs, with scattered leaf designs on the body.",
+        "slug":  "pyor-gotta-patti-saree-pista-green-4",
+        "price":  3900,
+        "wholesale":  2730,
+        "photo":  "uploads/products/Pyor Gotta Patti (43).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant lavender saree with heavy golden Gota Patti and mirror work. The saree features a scalloped border with intricate floral and mirror work, and a delicate floral brocade pattern.",
+        "slug":  "pyor-gotta-patti-saree-lavender",
+        "price":  3700,
+        "wholesale":  2590,
+        "photo":  "uploads/products/Pyor Gotta Patti (44).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful mauve saree with intricate Gota Patti work. The border is adorned with a zigzag and leaf pattern, with a large leaf motif on the pallu.",
+        "slug":  "pyor-gotta-patti-saree-mauve-3",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (45).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A sophisticated dusty pink saree with detailed Gota Patti and mirror work. The border features a scalloped design with floral and leaf motifs, with a subtle brocade pattern on the fabric.",
+        "slug":  "pyor-gotta-patti-saree-dusty-pink-2",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (46).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning magenta saree with Gota Patti and mirror work. The border has a graceful zigzag and leaf pattern, with a bold floral motif on the pallu.",
+        "slug":  "pyor-gotta-patti-saree-magenta-4",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (47).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A classic royal blue saree with intricate Gota Patti work. The border is a bold combination of geometric and floral motifs, with stunning floral designs scattered on the body.",
+        "slug":  "pyor-gotta-patti-saree-royal-blue",
+        "price":  3500,
+        "wholesale":  2450,
+        "photo":  "uploads/products/Pyor Gotta Patti (48).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning beige saree with intricate Gota Patti and mirror work. The saree features a broad border with floral and mirror motifs, with a small check pattern on the fabric.",
+        "slug":  "pyor-gotta-patti-saree-beige",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (49).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant off-white saree with delicate golden Gota Patti work. The border has a beautiful scalloped floral design with sequins, and the body has a subtle check pattern with scattered motifs.",
+        "slug":  "pyor-gotta-patti-saree-off-white",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/Pyor Gotta Patti (50).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant off-white saree with delicate golden Gota Patti work. The saree features a broad scalloped border with floral motifs and subtle scattered patterns on the body.",
+        "slug":  "pyor-gotta-patti-saree-off-white-2",
+        "price":  3100,
+        "wholesale":  2170,
+        "photo":  "uploads/products/Pyor Gotta Patti (51).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful dusty rose saree with intricate Gota Patti work on a brocade pattern. The saree has a heavy scalloped border with floral motifs and a delicate brocade pattern on the fabric.",
+        "slug":  "pyor-gotta-patti-saree-dusty-rose-brocade",
+        "price":  3100,
+        "wholesale":  2170,
+        "photo":  "uploads/products/Pyor Gotta Patti (52).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful dusty pink saree with intricate Gota Patti work. The saree has a stunning border with a combination of leaf and floral patterns, with a brocade pattern on the fabric.",
+        "slug":  "pyor-gotta-patti-saree-dusty-pink-3",
+        "price":  3100,
+        "wholesale":  2170,
+        "photo":  "uploads/products/Pyor Gotta Patti (53).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant peach-colored saree with fine Gota Patti work. The border features a unique floral and zigzag pattern with scattered small floral motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-peach",
+        "price":  3100,
+        "wholesale":  2170,
+        "photo":  "uploads/products/Pyor Gotta Patti (54).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "An elegant pink saree with intricate Gota Patti work on a brocade pattern. The saree has a stunning scalloped border with floral motifs and scattered patterns on the body.",
+        "slug":  "pyor-gotta-patti-saree-pink-brocade-2",
+        "price":  3100,
+        "wholesale":  2170,
+        "photo":  "uploads/products/Pyor Gotta Patti (55).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A beautiful dusty grey saree with Gota Patti and mirror work. The border features a combination of floral and mirror patterns, with large floral motifs on the body.",
+        "slug":  "pyor-gotta-patti-saree-dusty-grey-2",
+        "price":  3700,
+        "wholesale":  2590,
+        "photo":  "uploads/products/Pyor Gotta Patti  (56).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A gorgeous plum saree with intricate Gota Patti and mirror work. The saree features a scalloped border with intricate floral and mirror work, with a brocade pattern on the fabric.",
+        "slug":  "pyor-gotta-patti-saree-plum-2",
+        "price":  39500,
+        "wholesale":  27650,
+        "photo":  "uploads/products/Pyor Gotta Patti  (57).jpg"
+    },
+    {
+        "catId":  "6",
+        "name":  "Pyor Gotta Patti Saree",
+        "desc":  "A stunning red saree with a heavy golden Gota Patti border. The saree has a broad scalloped border with leaf motifs and scattered star patterns on the body.",
+        "slug":  "pyor-gotta-patti-saree-red-4",
+        "price":  3200,
+        "wholesale":  2240,
+        "photo":  "uploads/products/pyor Gotta Patti (58).jpg"
+    }
+]
