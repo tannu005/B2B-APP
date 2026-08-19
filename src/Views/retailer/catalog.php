@@ -11,8 +11,8 @@ $hoverImg = !empty($p['hover_image_url']) ? $p['hover_image_url'] : ($p['image_u
     ?>
     <div class="pavitra-product-card minimal product-card-trigger" data-id="<?= $p['id'] ?>" data-json="<?= htmlspecialchars(json_encode($p), ENT_QUOTES, 'UTF-8') ?>">
         <div class="pavitra-card-img-wrapper position-relative">
-            <img loading="lazy" src="<?= htmlspecialchars($p['image_url'] ?: '/kanjeevaram.png') ?>" alt="<?= htmlspecialchars($p['title']) ?>" class="pavitra-card-img" onerror="this.onerror=null;this.src='/kanjeevaram.png';">
-            <img loading="lazy" src="<?= $hoverImg ?>" alt="<?= htmlspecialchars($p['title']) ?> Back View" class="pavitra-card-img-hover" onerror="this.onerror=null;this.src='/banarasi.png';">
+            <img loading="lazy" src="<?= htmlspecialchars($p['image_url'] ?: '/uploads/products/gotta patti Bandhej (1).jpg') ?>" alt="<?= htmlspecialchars($p['title']) ?>" class="pavitra-card-img" onerror="this.onerror=null;this.src='/uploads/products/gotta patti Bandhej (1).jpg';">
+            <img loading="lazy" src="<?= $hoverImg ?>" alt="<?= htmlspecialchars($p['title']) ?> Back View" class="pavitra-card-img-hover" onerror="this.onerror=null;this.src='/uploads/products/Bandhej (1).jpg';">
             <button class="wishlist-heart-btn" onclick="event.stopPropagation(); $(this).toggleClass('active'); showToast($(this).hasClass('active') ? 'Added to Wishlist ❤️' : 'Removed from Wishlist');">
                 <i class="fa-solid fa-heart"></i>
             </button>

@@ -88,7 +88,7 @@ class RetailerController extends Controller {
                 ['title' => 'Pyor Gotta Heavy Bridal Saree', 'category' => 'Pyor Gotta Patti Sarees', 'img' => '/uploads/products/Pyor Gotta Patti (1).jpg', 'hover' => '/uploads/products/Pyor Gotta Patti (5).jpg', 'price' => 6999, 'wholesale' => 3499],
                 ['title' => 'Handloom Bandhej Jaipuri Silk Saree', 'category' => 'Bandhej Sarees', 'img' => '/uploads/products/Bandhej (5).jpg', 'hover' => '/uploads/products/Bandhej (11).jpg', 'price' => 4499, 'wholesale' => 2199],
                 ['title' => 'Chunri Gotta Patti Wedding Drape', 'category' => 'Gotta Patti Sarees', 'img' => '/uploads/products/Gotta Patti Chunri (1).jpg', 'hover' => '/uploads/products/Gotta Patti Chunri (12).jpg', 'price' => 3799, 'wholesale' => 1899],
-                ['title' => 'Designer Zari Brocade Silk Saree', 'category' => 'Banarasi Sarees', 'img' => '/uploads/products/Banner11.png', 'hover' => '/uploads/products/Banner1.png', 'price' => 5499, 'wholesale' => 2799]
+                ['title' => 'Designer Zari Brocade Silk Saree', 'category' => 'Banarasi Sarees', 'img' => '/uploads/products/gotta patti Bandhej (3).jpg', 'hover' => '/uploads/products/gotta patti Bandhej (4).jpg', 'price' => 5499, 'wholesale' => 2799]
             ];
             foreach ($fallbackSarees as $i => $fs) {
                 $products[] = [
