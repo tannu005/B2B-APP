@@ -163,19 +163,19 @@
             <div class="category-circle-title mt-1" style="font-size: 0.75rem; text-align: center; color: #333; font-weight: 600;">Bandhej</div>
         </a>
                 <a href="/?category=Bridal+Sarees" class="category-circle-item ">
-            <img src="/kanjeevaram_1782883481838.png" class="category-circle-img" alt="Bridal Sarees" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
+            <img src="/uploads/products/Gotta Patti Chunri (1).jpg" class="category-circle-img" alt="Bridal Sarees" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
             <div class="category-circle-title mt-1" style="font-size: 0.75rem; text-align: center; color: #333; font-weight: 600;">Bridal</div>
         </a>
                 <a href="/?category=Chiffon" class="category-circle-item ">
-            <img src="/banarasi_1782883519429.png" class="category-circle-img" alt="Chiffon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
+            <img src="/uploads/products/Bandhej (2).jpg" class="category-circle-img" alt="Chiffon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
             <div class="category-circle-title mt-1" style="font-size: 0.75rem; text-align: center; color: #333; font-weight: 600;">Chiffon</div>
         </a>
                 <a href="/?category=Chiffon+Sarees" class="category-circle-item ">
-            <img src="/patola_1782883499288.png" class="category-circle-img" alt="Chiffon Sarees" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
+            <img src="/uploads/products/gotta patti Bandhej (1).jpg" class="category-circle-img" alt="Chiffon Sarees" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
             <div class="category-circle-title mt-1" style="font-size: 0.75rem; text-align: center; color: #333; font-weight: 600;">Chiffon</div>
         </a>
                 <a href="/?category=Chunri" class="category-circle-item ">
-            <img src="/tissue_1782883588057.png" class="category-circle-img" alt="Chunri" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
+            <img src="/uploads/products/Bandhej (1).jpg" class="category-circle-img" alt="Chunri" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid #ECEFF1; display: block; margin: 0 auto;">
             <div class="category-circle-title mt-1" style="font-size: 0.75rem; text-align: center; color: #333; font-weight: 600;">Chunri</div>
         </a>
             </div>
@@ -1960,6 +1960,7 @@ $(document).ready(function() {
     </script>
 </body>
 </html>
+
 
 
 
