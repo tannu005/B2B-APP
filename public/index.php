@@ -14,13 +14,13 @@
     <meta property="og:site_name" content="Pavitra Designer">
     <meta property="og:url" content="http://pavitra-b2b-app-production.up.railway.app/">
     <title>Pavitra Designer Wholesale - Pavitra Style Shop</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css?v=1787154214.01276" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/pavitra.css?v=1784531520">
-    <link rel="stylesheet" href="assets/css/typography.css?v=1784531520">
+    <link rel="stylesheet" href="assets/css/pavitra.css?v=1787154214.01276">
+    <link rel="stylesheet" href="assets/css/typography.css?v=1787154214.01276">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script>
@@ -1954,5 +1954,6 @@ $(document).ready(function() {
     </script>
 </body>
 </html>
+
 
 
