@@ -35,6 +35,12 @@
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+    <style>
+        body { background-color: #FFFDF5 !important; color: #333; }
+        .pavitra-mobile-header, .meesho-mobile-header { background-color: #FFFBEA !important; border-bottom: 1.5px solid #E6D8B8 !important; }
+        .pavitra-mobile-nav, .meesho-mobile-nav { background-color: #FFFBEA !important; border-top: 1.5px solid #E6D8B8 !important; }
+        .pavitra-mobile-nav .nav-item.active span, .pavitra-mobile-nav .nav-item.active i { color: #c48a14 !important; }
+    </style>
 </head>
 <body>
     <div class="py-2 hide-on-mobile text-center" style="background-color: #F8F9FA; border-bottom: 1px solid #ECEFF1; color: #555;">
@@ -1954,6 +1960,7 @@ $(document).ready(function() {
     </script>
 </body>
 </html>
+
 
 
 
