@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: pavitra-b2b-app
-    env: docker
-    plan: free
-    region: singapore
-    dockerfilePath: ./Dockerfile
