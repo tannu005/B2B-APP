@@ -170,13 +170,13 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
             <?php endforeach; ?>
         </div>
     </div>
-    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 45vh; min-height: 360px; max-height: 480px;">
-        <div class="pavitra-parallax-bg" style="background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.35)), url('/uploads/products/tyoharcore_festive.png');"></div>
-        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center text-white p-4" style="position: relative; z-index: 2;">
-            <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.85); text-shadow: 0 2px 8px rgba(0,0,0,0.8); font-weight: 700; letter-spacing: 0.12em;">Wholesale Wedding Collection</p>
-            <h2 class="text-uppercase mb-3 pavitra-hero-title" style="text-shadow: 0 4px 15px rgba(0,0,0,0.8); color: #FFF !important; font-size: 2.2rem;">Tyoharcore</h2>
-            <p class="mb-4" style="font-size: 0.9rem; color: rgba(255,255,255,0.9); text-shadow: 0 2px 8px rgba(0,0,0,0.8); max-width: 520px; line-height: 1.6;">Festive silks handpicked for the bridal season. Bulk orders with exclusive wholesale margins.</p>
-            <a href="/?category=Bridal+Sarees" class="btn btn-outline-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="border-width: 2px; letter-spacing: 0.1em;">Explore Collection</a>
+    <div class="w-100 my-5 pavitra-parallax-container position-relative overflow-hidden rounded-3" style="height: 50vh; min-height: 400px; max-height: 520px; background-color: #241410;">
+        <div class="pavitra-parallax-bg position-absolute w-100 h-100" style="top: 0; left: 0; background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('/uploads/products/tyoharcore_festive.png?v=<?= time() ?>'); background-size: cover; background-position: center 25%; z-index: 1;"></div>
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center text-white p-4 position-relative" style="z-index: 2;">
+            <p class="text-uppercase mb-2 pavitra-hero-subtitle" style="color: rgba(255,255,255,0.9); text-shadow: 0 2px 8px rgba(0,0,0,0.8); font-weight: 700; letter-spacing: 0.12em;">Wholesale Wedding Collection</p>
+            <h2 class="text-uppercase mb-3 pavitra-hero-title" style="text-shadow: 0 4px 15px rgba(0,0,0,0.8); color: #FFF !important; font-size: 2.4rem;">Tyoharcore</h2>
+            <p class="mb-4" style="font-size: 0.95rem; color: rgba(255,255,255,0.95); text-shadow: 0 2px 8px rgba(0,0,0,0.8); max-width: 520px; line-height: 1.6;">Festive silks handpicked for the bridal season. Bulk orders with exclusive wholesale margins.</p>
+            <a href="/?category=Bandhej+Sarees" class="btn btn-outline-light rounded-0 px-5 py-2.5 text-uppercase fw-bold pavitra-hero-cta shadow" style="border-width: 2px; letter-spacing: 0.1em;">Explore Collection</a>
         </div>
     </div>
     <div class="carousel-section-wrapper position-relative my-5 py-3" style="font-family: 'Nunito', sans-serif;">
