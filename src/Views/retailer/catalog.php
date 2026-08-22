@@ -52,22 +52,19 @@ $isFiltered = !empty($selectedCategory) || !empty($searchQuery) || !empty($sort)
         <?php 
         $defaultCategories = [
             ['name' => 'Bandhej', 'img' => '/uploads/products/Bandhej (1).jpg'],
-            ['name' => 'Banarasi', 'img' => '/uploads/products/gotta patti Bandhej (1).jpg'],
-            ['name' => 'Gotta Patti', 'img' => '/uploads/products/gotta patti Bandhej (6).jpg'],
+            ['name' => 'Gotta Patti Bandhej', 'img' => '/uploads/products/gotta patti Bandhej (1).jpg'],
+            ['name' => 'Gotta Patti Chunri', 'img' => '/uploads/products/Gotta Patti Chunri (1).jpg'],
             ['name' => 'Pittan Work', 'img' => '/uploads/products/Pittan work (1).jpg'],
             ['name' => 'Printed', 'img' => '/uploads/products/Printed (1).jpg'],
-            ['name' => 'Pyor Gotta', 'img' => '/uploads/products/Pyor Gotta Patti (1).jpg']
+            ['name' => 'Pyor Gotta Patti', 'img' => '/uploads/products/Pyor Gotta Patti (1).jpg']
         ];
 
         $categoriesToRender = [];
         if (isset($categoriesList) && !empty($categoriesList)) {
-            foreach (array_slice($categoriesList, 0, 6) as $idx => $cat) {
+            foreach ($categoriesList as $idx => $cat) {
                 $rawName = $cat['name'];
                 $cleanName = str_replace(' Sarees', '', $rawName);
-                if (preg_match('/^C[0-9a-f]{7}/i', $cleanName)) {
-                    $cleanName = $defaultCategories[$idx]['name'] ?? 'Saree';
-                }
-                $img = $defaultCategories[$idx]['img'] ?? '/uploads/products/Bandhej (1).jpg';
+                $img = !empty($cat['image_url']) ? $cat['image_url'] : ($defaultCategories[$idx]['img'] ?? '/uploads/products/Bandhej (1).jpg');
                 $categoriesToRender[] = [
                     'query' => $rawName,
                     'display' => $cleanName,
